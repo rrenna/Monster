@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>MainStatusOverlayResource</key>
+	<string>HUD-Healthbar-Monster.png</string>
+	<key>HealthbarResource</key>
+	<string>HUD-Healthbar.png</string>
+	<key>ManabarResource</key>
+	<string>HUD-Manabar.png</string>
+	<key>SelectionMarkerResources</key>
+	<array>
+		<string>SelectionMarker1.png</string>
+		<string>SelectionMarker2.png</string>
+		<string>SelectionMarker3.png</string>
+		<string>SelectionMarker4.png</string>
+		<string>SelectionMarker5.png</string>
+		<string>SelectionMarker6.png</string>
+		<string>SelectionMarker7.png</string>
+		<string>SelectionMarker8.png</string>
+	</array>
+</dict>
+</plist>

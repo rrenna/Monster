@@ -1,0 +1,5583 @@
+// !$*UTF8*$!
+{
+	1D6058900D05DD3D006BFB54 /* Monster-99.3 */ = {
+		activeExec = 0;
+		executables = (
+			A66FB70811B5B95500CC85F6 /* Monster-99.3 */,
+		);
+	};
+	1F3B9A2B0EF2145700286867 /* Monster_99_3AppDelegate.mm */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {738, 1175}}";
+			sepNavSelRange = "{1841, 5}";
+			sepNavVisRange = "{726, 1488}";
+			sepNavWindowFrame = "{{19, 0}, {874, 778}}";
+		};
+	};
+	1F3B9A2C0EF2145700286867 /* Monster_99_3AppDelegate.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {738, 550}}";
+			sepNavSelRange = "{328, 0}";
+			sepNavVisRange = "{0, 328}";
+		};
+	};
+	1F3B9A820EF2151B00286867 /* Monster_99_3_Prefix.pch */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {738, 550}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 187}";
+		};
+	};
+	29B97313FDCFA39411CA2CEA /* Project object */ = {
+		activeArchitecturePreference = armv6;
+		activeBuildConfigurationName = Debug;
+		activeExecutable = A66FB70811B5B95500CC85F6 /* Monster-99.3 */;
+		activeSDKPreference = iphonesimulator4.1;
+		activeTarget = 1D6058900D05DD3D006BFB54 /* Monster-99.3 */;
+		addToTargets = (
+			A6E1AEC211D6462F00113F52 /* MonsterLogicTests */,
+			1D6058900D05DD3D006BFB54 /* Monster-99.3 */,
+		);
+		breakpoints = (
+			A66FB85C11B5BB1000CC85F6 /* Monster_99_3AppDelegate.mm:56 */,
+			A66FB86811B5BB4100CC85F6 /* MMap.mm:19 */,
+			A66FB87E11B5BB5E00CC85F6 /* LevelScene.mm:27 */,
+			A66FB8BC11B5BC5A00CC85F6 /* SplashScene.mm:75 */,
+			A66FB8C611B5BC6B00CC85F6 /* SplashScene.mm:35 */,
+			A66FB8CF11B5BC9900CC85F6 /* SplashScene.mm:41 */,
+			A66FB8D611B5BCAC00CC85F6 /* SplashScene.mm:48 */,
+			A66FB8FD11B5D5F700CC85F6 /* MUnit.mm:183 */,
+			A66FB91811B5D9FB00CC85F6 /* MUnit.mm:183 */,
+			A66FBA5B11B61C5800CC85F6 /* LevelScene.mm:164 */,
+			A629A4E111B688F300F951AE /* LevelScene.mm:81 */,
+			A629A4E811B68A2100F951AE /* LevelScene.mm:701 */,
+			A629A52211B68C3B00F951AE /* LevelScene.mm:693 */,
+			A629A52911B68C6200F951AE /* LevelScene.mm:701 */,
+			A629A66511B6BD9C00F951AE /* LevelScene.mm:693 */,
+			A629A6FC11B6C48F00F951AE /* LevelScene.mm:693 */,
+			A629A74A11B6C7C200F951AE /* MUnit.mm:19 */,
+			A629A75F11B6C86A00F951AE /* MEntity.mm:131 */,
+			A629A79711B6CBA300F951AE /* MEntity.mm:131 */,
+			A629A79B11B6CBE000F951AE /* MEntity.mm:131 */,
+			A629A7C811B6D1D400F951AE /* MUnit.mm:25 */,
+			A629A7D711B6D28200F951AE /* LevelScene.mm:693 */,
+			A629A89C11B6F48E00F951AE /* MUnit.mm:183 */,
+			A629A8A011B6F49500F951AE /* MUnit.mm:183 */,
+			A629A8CD11B7049400F951AE /* MUnit.mm:183 */,
+			A629A91711B707C400F951AE /* LevelScene.mm:701 */,
+			A629A95311B70EAD00F951AE /* MContactListener.mm:101 */,
+			A629A95511B70EAE00F951AE /* MContactListener.mm:106 */,
+			A629A95711B70EAF00F951AE /* MContactListener.mm:111 */,
+			A629A95911B70EB000F951AE /* MContactListener.mm:116 */,
+			A629A96E11B7108400F951AE /* MContactListener.mm:25 */,
+			A629A9A111B7133B00F951AE /* MContactListener.mm:40 */,
+			A629A9A311B7133C00F951AE /* MContactListener.mm:50 */,
+			A629AA0811B71ACB00F951AE /* b2Body.h:749 */,
+			A629AA1711B71B0B00F951AE /* MContactListener.mm:32 */,
+			A629AABA11B7314200F951AE /* MEntity.mm:131 */,
+			A629AB8711B73A4800F951AE /* MEntity.mm:131 */,
+			A629ABA211B73B9B00F951AE /* MEntity.mm:131 */,
+			A629ABF311B7405700F951AE /* MContactListener.mm:24 */,
+			A629AC0511B7416700F951AE /* MContactListener.mm:95 */,
+			A629AC4211B7452700F951AE /* LevelScene.mm:693 */,
+			A629AC4911B7453900F951AE /* MContactListener.mm:62 */,
+			A629AC4D11B7453C00F951AE /* MContactListener.mm:64 */,
+			A629AC5311B7455900F951AE /* LevelScene.mm:701 */,
+			A629AC6211B7461A00F951AE /* MContactListener.mm:64 */,
+			A629AD0F11B7581E00F951AE /* LevelScene.mm:696 */,
+			A629ADA811B75CB400F951AE /* MProjectileManager.mm:99 */,
+			A629ADB811B75CF600F951AE /* MProjectileManager.mm:99 */,
+			A629AE2A11B7CF0F00F951AE /* MEntity.mm:30 */,
+			A629AE6D11B8B2A300F951AE /* MUnit.mm:31 */,
+			A629AE7511B8B2B100F951AE /* MUnit.mm:31 */,
+			A629AF2311B8BE1E00F951AE /* MEntity.mm:30 */,
+			A629AF7211B8C35E00F951AE /* MEntity.mm:30 */,
+			A629AF7411B8C35F00F951AE /* MEntity.mm:29 */,
+			A629AFB811B8C93100F951AE /* LevelScene.mm:81 */,
+			A629AFDF11B8CA4800F951AE /* b2Body.h:709 */,
+			A629AFE711B8CAD700F951AE /* LevelScene.mm:701 */,
+			A629B03A11B8D2B700F951AE /* MProjectileManager.mm:100 */,
+			A629B04311B8D2E900F951AE /* MProjectileManager.mm:101 */,
+			A629B04C11B8D31200F951AE /* MUnit.mm:235 */,
+			A629B04E11B8D31300F951AE /* MUnit.mm:235 */,
+			A605F84611B9C1DB00DBD99C /* MUnit.mm:235 */,
+			A6E0D2D611BAC46200E17690 /* MUnit.mm:250 */,
+			A6E0D2EE11BAC5B400E17690 /* MEntity.mm:131 */,
+			A6E0D2F011BAC5B500E17690 /* MEntity.mm:131 */,
+			A6E5C12B11BBEBB000914CE3 /* LevelScene.mm:83 */,
+			A6E5C12D11BBEBD900914CE3 /* MEntityManager.mm:66 */,
+			A6E5C15311BBEE8100914CE3 /* MEntityManager.mm:101 */,
+			A6E5C15B11BBEF3000914CE3 /* MEntityManager.mm:116 */,
+			A6E5C16311BBF49900914CE3 /* MEntityManager.mm:144 */,
+			A6E5C16B11BBF78E00914CE3 /* MEntityManager.mm:202 */,
+			A6E5C16F11BBF87C00914CE3 /* MEntityManager.mm:203 */,
+			A6E5C17111BBF88D00914CE3 /* MEntityManager.mm:297 */,
+			A6E5C17311BBF8A500914CE3 /* MEntityManager.mm:309 */,
+			A6E5C1AA11BC06A900914CE3 /* MContactListener.mm:95 */,
+			A6E5C1AC11BC06AA00914CE3 /* MContactListener.mm:95 */,
+			A6E5C1D911BC1B5D00914CE3 /* LevelScene.mm:81 */,
+			A6E5C20D11BC270200914CE3 /* MEntityManager.mm:154 */,
+			A6E5C21111BC271600914CE3 /* MEntityManager.mm:164 */,
+			A6E5C21311BC271700914CE3 /* MEntityManager.mm:166 */,
+			A6E5C29C11BC324700914CE3 /* MEntityManager.mm:190 */,
+			A6E5C2B211BC32DA00914CE3 /* MEntityManager.mm:190 */,
+			A6E5C2CA11BC336000914CE3 /* MEntityManager.mm:201 */,
+			A6E5C2D211BC339900914CE3 /* LevelScene.mm:682 */,
+			A6E5C2E511BC340C00914CE3 /* LevelScene.mm:80 */,
+			A6E5C2F811BC355D00914CE3 /* MEntityManager.mm:191 */,
+			A6E5C34211BC39C300914CE3 /* LevelScene.mm:358 */,
+			A6E5C34A11BC3A3800914CE3 /* MUnit.mm:31 */,
+			A6E5C35511BC3B3500914CE3 /* MEntityManager.mm:346 */,
+			A6E5C38511BC4F4300914CE3 /* MEntityManager.mm:248 */,
+			A6E5C39A11BC50B400914CE3 /* LevelScene.mm:111 */,
+			A6E5C58111BC8DD600914CE3 /* LevelScene.mm:259 */,
+			A6E5C58311BC8DD800914CE3 /* LevelScene.mm:261 */,
+			A6E5C67311BC9CF100914CE3 /* MMap.mm:88 */,
+			A6E5C68A11BC9ECD00914CE3 /* MMap.mm:93 */,
+			A6503BF311BF256400F305AD /* LevelScene.mm:107 */,
+			A6503C8811BF30D600F305AD /* MProjectileManager.mm:70 */,
+			A6503CE011BF34C600F305AD /* MProjectileManager.mm:86 */,
+			A6503D1711BF37A500F305AD /* MUnit.mm:244 */,
+			A6503D3C11BF38AF00F305AD /* MEntityManager.mm:278 */,
+			A6503D7D11BF3CA500F305AD /* MEntityManager.mm:273 */,
+			A6503DF211BFD43500F305AD /* MEntityManager.mm:244 */,
+			A64B201511C158FC003B4B89 /* MEntityManager.mm:167 */,
+			A64B204C11C15C48003B4B89 /* MEntityManager.mm:59 */,
+			A64B205F11C15CEF003B4B89 /* MEntityManager.mm:156 */,
+			A64B206111C15CF4003B4B89 /* MEntityManager.mm:158 */,
+			A64B206A11C15D91003B4B89 /* MObject.m:44 */,
+			A64B20B911C1606A003B4B89 /* MEntity.mm:131 */,
+			A64B20C211C161E8003B4B89 /* MProjectile.m:25 */,
+			A64B20CC11C16219003B4B89 /* MProjectile.m:33 */,
+			A64B20D411C162C5003B4B89 /* MUnit.mm:245 */,
+			A64B212011C19EE5003B4B89 /* MPersona.mm:23 */,
+			A64B212811C1A261003B4B89 /* MSettings.mm:30 */,
+			A64B213711C1A2B3003B4B89 /* MSettings.mm:30 */,
+			A64B214811C1A2F8003B4B89 /* MSettings.mm:30 */,
+			A64B21CC11C1B6C6003B4B89 /* MUnit.mm:253 */,
+			A64B21D611C1B6DA003B4B89 /* MUnit.mm:240 */,
+			A64B21DA11C1B6ED003B4B89 /* MUnit.mm:236 */,
+			A64B21EA11C1BA67003B4B89 /* MProjectileManager.mm:20 */,
+			A64B21FD11C1BB28003B4B89 /* LevelScene.mm:55 */,
+			A64B222711C1BC48003B4B89 /* LevelScene.mm:38 */,
+			A64B222A11C1BC51003B4B89 /* LevelScene.mm:46 */,
+			A64B22FE11C1D02A003B4B89 /* MUnit.mm:183 */,
+			A64B231911C1D35C003B4B89 /* MUnit.mm:229 */,
+			A64B239C11C1DA02003B4B89 /* MProjectileManager.mm:111 */,
+			A6C6B7A911C33A6400F9540E /* MSettings.mm:16 */,
+			A6C6B89211C3C60400F9540E /* LevelScene.mm:264 */,
+			A6C6B8B411C3CA8600F9540E /* MProjectile.m:19 */,
+			A6C6B92511C3CFE800F9540E /* MPersona.mm:113 */,
+			A6C6B95511C3D18100F9540E /* MPersona.mm:113 */,
+			A6C6BC3B11C3E0FD00F9540E /* LevelScene.mm:696 */,
+			A6C6BC8F11C3E57100F9540E /* MEntityManager.mm:259 */,
+			A6C6BCC911C3EDBE00F9540E /* MUnit.mm:252 */,
+			A6C6BD4311C4070E00F9540E /* MPersona.mm:74 */,
+			A6C6BD6A11C407E500F9540E /* MPersona.mm:73 */,
+			A6349EFD11C4536600EF01F7 /* LevelScene.mm:522 */,
+			A6349F0111C453A200EF01F7 /* LevelScene.mm:666 */,
+			A6349F0611C4543100EF01F7 /* LevelScene.mm:567 */,
+			A6349F1D11C4552600EF01F7 /* LevelScene.mm:421 */,
+			A6349F3311C455C400EF01F7 /* LevelScene.mm:422 */,
+			A634A00D11C46EA100EF01F7 /* LevelScene.mm:500 */,
+			A634A02611C470DB00EF01F7 /* LevelScene.mm:369 */,
+			A634A04311C471A500EF01F7 /* LevelScene.mm:360 */,
+			A634A05411C4729100EF01F7 /* LevelScene.mm:370 */,
+			A634A06211C472E100EF01F7 /* LevelScene.mm:487 */,
+			A634A0A611C4787A00EF01F7 /* LevelScene.mm:443 */,
+			A634A0B611C4795200EF01F7 /* LevelScene.mm:489 */,
+			A634A0FC11C5237B00EF01F7 /* LevelScene.mm:505 */,
+			A634A12311C525EB00EF01F7 /* MActionTile.mm:37 */,
+			A634A15911C5527D00EF01F7 /* LevelScene.mm:406 */,
+			A634A16211C5533600EF01F7 /* LevelScene.mm:506 */,
+			A634A1AD11C5599A00EF01F7 /* MActionTile.mm:58 */,
+			A634A1C111C55A7100EF01F7 /* MActionTile.mm:63 */,
+			A638551A11C5E14600CF1B5F /* MUnit.mm:31 */,
+			A6745D9011C720B9006C34BE /* MUnit.mm:39 */,
+			A6745DCF11C72D0B006C34BE /* MUnit.mm:112 */,
+			A6745DF611C73087006C34BE /* MUnit.mm:96 */,
+			A6745DF811C73088006C34BE /* MUnit.mm:95 */,
+			A6745E0311C7322E006C34BE /* MAStarSearch.mm:250 */,
+			A67DCE4A11C7B7BF00A261FE /* MUnit.mm:163 */,
+			A67DCE5711C7B81700A261FE /* MUnit.mm:149 */,
+			A67DCE5B11C7B81F00A261FE /* MUnit.mm:146 */,
+			A60ECAEB11C9CFA4002DE9C7 /* SplashScene.mm:44 */,
+			A60ECB2B11C9D3AA002DE9C7 /* SplashScene.mm:43 */,
+			A64F218311CC6937000C7E6D /* MContactListener.mm:86 */,
+			A64F218511CC6938000C7E6D /* MContactListener.mm:87 */,
+			A64F21C911CC6C5C000C7E6D /* MEntity.mm:123 */,
+			A64F21DF11CC6D2D000C7E6D /* MEntity.mm:122 */,
+			A63F04B211CD59E600A14826 /* MUnit.mm:374 */,
+			A63F04E311CD673C00A14826 /* LevelScene.mm:351 */,
+			A63F064D11CE4DFA00A14826 /* LevelScene.mm:314 */,
+			A63F065611CE4E1600A14826 /* LevelScene.mm:461 */,
+			A63F068E11CE53BE00A14826 /* LevelScene.mm:396 */,
+			A63F069211CE57EE00A14826 /* LevelScene.mm:393 */,
+			A63F06A611CE58C000A14826 /* LevelScene.mm:270 */,
+			A67D719F11CEF58A005EBBAD /* MUnit.mm:404 */,
+			A67D71AE11CEF5B8005EBBAD /* MUnit.mm:404 */,
+			A67D71CA11CEF99D005EBBAD /* MEntityManager.mm:85 */,
+			A67D720611CF05A3005EBBAD /* LevelScene.mm:242 */,
+			A662C25711D1857900EBE709 /* MUnit.mm:93 */,
+			A662C26411D18D5300EBE709 /* LevelScene.mm:362 */,
+			A662C28511D18F1C00EBE709 /* MUnit.mm:94 */,
+			A662C29A11D196C300EBE709 /* MAStarSearch.mm:221 */,
+			A662C2CF11D1A84400EBE709 /* MAStarSearch.mm:249 */,
+			A662C33911D1B63C00EBE709 /* MAStarSearch.mm:247 */,
+			A662C33B11D1B65800EBE709 /* MAStarSearch.mm:245 */,
+			A662C37B11D1BADD00EBE709 /* MAStarSearch.mm:250 */,
+			A662C38111D1BB9700EBE709 /* MAStarSearch.mm:250 */,
+			A662C39F11D1BCE500EBE709 /* MAStarSearch.mm:250 */,
+			A6E1AFEE11D64BB900113F52 /* LogicTests.mm:35 */,
+			A6E1AFF911D64D5500113F52 /* LogicTests.mm:31 */,
+			A6E1B06211D6573C00113F52 /* MEntity.mm:106 */,
+			A6E1B07011D6578100113F52 /* LevelScene.mm:265 */,
+			A6E1B08511D6592C00113F52 /* LevelScene.mm:267 */,
+			A6B1153B11D95D0B0054F3BB /* LevelScene.mm:128 */,
+			A6B1154311D95D2E0054F3BB /* LevelScene.mm:134 */,
+			A6B1155211D95E870054F3BB /* MUnit.mm:291 */,
+			A6B1156511D95FE80054F3BB /* MUnit.mm:292 */,
+			A6B1157B11D962440054F3BB /* LevelScene.mm:124 */,
+			A6B115A811D964F20054F3BB /* MProjectile.m:18 */,
+			A6B115B511D9654F0054F3BB /* MProjectileManager.mm:54 */,
+			A63A8EAE11DA142F0074068F /* LevelScene.mm:204 */,
+			A63A8ED911DA147D0074068F /* LevelScene.mm:205 */,
+			A63A8EF011DA15440074068F /* LevelScene.mm:161 */,
+			A63A8EFC11DA15960074068F /* LevelScene.mm:159 */,
+			A6F05D7811DADD8E0058E5AA /* LevelScene.mm:216 */,
+			A65CEF5912E7E64B00791A77 /* LevelScene.mm:295 */,
+			A65CEF5B12E7E65000791A77 /* LevelScene.mm:156 */,
+			A65CEF6612E7E72500791A77 /* LevelScene.mm:357 */,
+			A65CEF6E12E7E76400791A77 /* MUnit.mm:35 */,
+		);
+		codeSenseManager = A66FB73611B5B99200CC85F6 /* Code sense */;
+		executables = (
+			A66FB70811B5B95500CC85F6 /* Monster-99.3 */,
+		);
+		expressions = (
+			pointPosition,
+		);
+		perUserDictionary = {
+			"PBXConfiguration.PBXBreakpointsDataSource.v1:1CA23EDF0692099D00951B8B" = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXBreakpointsDataSource_BreakpointID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					20,
+					248,
+					20,
+					148,
+					148,
+					81,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXBreakpointsDataSource_ActionID,
+					PBXBreakpointsDataSource_TypeID,
+					PBXBreakpointsDataSource_BreakpointID,
+					PBXBreakpointsDataSource_UseID,
+					PBXBreakpointsDataSource_LocationID,
+					PBXBreakpointsDataSource_ConditionID,
+					PBXBreakpointsDataSource_IgnoreCountID,
+					PBXBreakpointsDataSource_ContinueID,
+				);
+			};
+			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					698,
+					20,
+					48,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXConfiguration.PBXTargetDataSource.PBXTargetDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					520,
+					60,
+					20,
+					48,
+					43,
+					43,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXTargetDataSource_PrimaryAttribute,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+				);
+			};
+			PBXPerProjectTemplateStateSaveDate = 317186706;
+			PBXWorkspaceStateSaveDate = 317186706;
+		};
+		perUserProjectItems = {
+			A63A8EB211DA145F0074068F /* PBXBookmark */ = A63A8EB211DA145F0074068F /* PBXBookmark */;
+			A63A8EB311DA145F0074068F /* PlistBookmark */ = A63A8EB311DA145F0074068F /* PlistBookmark */;
+			A63A8EB411DA145F0074068F /* PBXBookmark */ = A63A8EB411DA145F0074068F /* PBXBookmark */;
+			A63A8EB511DA145F0074068F /* PBXBookmark */ = A63A8EB511DA145F0074068F /* PBXBookmark */;
+			A63A8EB611DA145F0074068F /* PBXBookmark */ = A63A8EB611DA145F0074068F /* PBXBookmark */;
+			A63A8EB711DA145F0074068F /* PBXBookmark */ = A63A8EB711DA145F0074068F /* PBXBookmark */;
+			A63A8EB811DA145F0074068F /* PBXBookmark */ = A63A8EB811DA145F0074068F /* PBXBookmark */;
+			A63A8EB911DA145F0074068F /* PBXBookmark */ = A63A8EB911DA145F0074068F /* PBXBookmark */;
+			A63A8EBA11DA145F0074068F /* PBXBookmark */ = A63A8EBA11DA145F0074068F /* PBXBookmark */;
+			A63A8EBB11DA145F0074068F /* PBXBookmark */ = A63A8EBB11DA145F0074068F /* PBXBookmark */;
+			A63A8EBC11DA145F0074068F /* PBXBookmark */ = A63A8EBC11DA145F0074068F /* PBXBookmark */;
+			A63A8EBD11DA145F0074068F /* PBXBookmark */ = A63A8EBD11DA145F0074068F /* PBXBookmark */;
+			A63A8EBE11DA145F0074068F /* PBXBookmark */ = A63A8EBE11DA145F0074068F /* PBXBookmark */;
+			A63A8EBF11DA145F0074068F /* PBXBookmark */ = A63A8EBF11DA145F0074068F /* PBXBookmark */;
+			A63A8EC011DA145F0074068F /* PBXBookmark */ = A63A8EC011DA145F0074068F /* PBXBookmark */;
+			A63A8EC111DA145F0074068F /* PBXBookmark */ = A63A8EC111DA145F0074068F /* PBXBookmark */;
+			A63A8EC211DA145F0074068F /* PBXBookmark */ = A63A8EC211DA145F0074068F /* PBXBookmark */;
+			A63A8EC311DA145F0074068F /* PBXBookmark */ = A63A8EC311DA145F0074068F /* PBXBookmark */;
+			A63A8EC411DA145F0074068F /* PlistBookmark */ = A63A8EC411DA145F0074068F /* PlistBookmark */;
+			A65CEF4A12E7E5BB00791A77 /* PBXTextBookmark */ = A65CEF4A12E7E5BB00791A77 /* PBXTextBookmark */;
+			A65CEF4B12E7E5BB00791A77 /* PBXTextBookmark */ = A65CEF4B12E7E5BB00791A77 /* PBXTextBookmark */;
+			A65CEF4C12E7E5BB00791A77 /* PBXTextBookmark */ = A65CEF4C12E7E5BB00791A77 /* PBXTextBookmark */;
+			A65CEF4D12E7E5BB00791A77 /* PBXTextBookmark */ = A65CEF4D12E7E5BB00791A77 /* PBXTextBookmark */;
+			A65CEF4E12E7E5BB00791A77 /* PBXTextBookmark */ = A65CEF4E12E7E5BB00791A77 /* PBXTextBookmark */;
+			A65CEF4F12E7E5BB00791A77 /* PBXTextBookmark */ = A65CEF4F12E7E5BB00791A77 /* PBXTextBookmark */;
+			A65CEF5012E7E5BB00791A77 /* PBXTextBookmark */ = A65CEF5012E7E5BB00791A77 /* PBXTextBookmark */;
+			A65CEF5112E7E5BB00791A77 /* PBXTextBookmark */ = A65CEF5112E7E5BB00791A77 /* PBXTextBookmark */;
+			A65CEF5212E7E5BB00791A77 /* PBXTextBookmark */ = A65CEF5212E7E5BB00791A77 /* PBXTextBookmark */;
+			A65CEF5312E7E5BB00791A77 /* PBXTextBookmark */ = A65CEF5312E7E5BB00791A77 /* PBXTextBookmark */;
+			A65CEF5412E7E5BB00791A77 /* PBXTextBookmark */ = A65CEF5412E7E5BB00791A77 /* PBXTextBookmark */;
+			A65CEF5D12E7E65600791A77 /* PBXTextBookmark */ = A65CEF5D12E7E65600791A77 /* PBXTextBookmark */;
+			A65CEF7E12E7E9A900791A77 /* PBXTextBookmark */ = A65CEF7E12E7E9A900791A77 /* PBXTextBookmark */;
+			A6AF8ADA11D68A9F0031446F /* PBXTextBookmark */ = A6AF8ADA11D68A9F0031446F /* PBXTextBookmark */;
+			A6AF8C1A11D6CBDD0031446F /* PBXTextBookmark */ = A6AF8C1A11D6CBDD0031446F /* PBXTextBookmark */;
+			A6AF8C7711D6E1890031446F /* PBXTextBookmark */ = A6AF8C7711D6E1890031446F /* PBXTextBookmark */;
+			A6AF8C7811D6E1890031446F /* PBXTextBookmark */ = A6AF8C7811D6E1890031446F /* PBXTextBookmark */;
+			A6AF8C7911D6E1890031446F /* PBXTextBookmark */ = A6AF8C7911D6E1890031446F /* PBXTextBookmark */;
+			A6AF8C8011D6EA0E0031446F /* PBXTextBookmark */ = A6AF8C8011D6EA0E0031446F /* PBXTextBookmark */;
+			A6B1159A11D964750054F3BB /* PBXTextBookmark */ = A6B1159A11D964750054F3BB /* PBXTextBookmark */;
+			A6B1159B11D964750054F3BB /* PBXTextBookmark */ = A6B1159B11D964750054F3BB /* PBXTextBookmark */;
+			A6B1159C11D964750054F3BB /* PBXTextBookmark */ = A6B1159C11D964750054F3BB /* PBXTextBookmark */;
+			A6B115AD11D964F80054F3BB /* PBXTextBookmark */ = A6B115AD11D964F80054F3BB /* PBXTextBookmark */;
+			A6B115AE11D964F80054F3BB /* PBXTextBookmark */ = A6B115AE11D964F80054F3BB /* PBXTextBookmark */;
+			A6B115AF11D964F80054F3BB /* PBXTextBookmark */ = A6B115AF11D964F80054F3BB /* PBXTextBookmark */;
+			A6B115B011D964F80054F3BB /* PBXTextBookmark */ = A6B115B011D964F80054F3BB /* PBXTextBookmark */;
+			A6B115C511D966730054F3BB /* PBXTextBookmark */ = A6B115C511D966730054F3BB /* PBXTextBookmark */;
+			A6B115C611D966730054F3BB /* PBXTextBookmark */ = A6B115C611D966730054F3BB /* PBXTextBookmark */;
+			A6B115CA11D9668E0054F3BB /* PBXTextBookmark */ = A6B115CA11D9668E0054F3BB /* PBXTextBookmark */;
+			A6B115DD11D96BB70054F3BB /* PBXTextBookmark */ = A6B115DD11D96BB70054F3BB /* PBXTextBookmark */;
+			A6B115DE11D96BB70054F3BB /* PBXTextBookmark */ = A6B115DE11D96BB70054F3BB /* PBXTextBookmark */;
+			A6B115E011D96BB70054F3BB /* PBXTextBookmark */ = A6B115E011D96BB70054F3BB /* PBXTextBookmark */;
+			A6B115E111D96BB70054F3BB /* PBXTextBookmark */ = A6B115E111D96BB70054F3BB /* PBXTextBookmark */;
+			A6B4BB6011D99BB600C61E6A /* PlistBookmark */ = A6B4BB6011D99BB600C61E6A /* PlistBookmark */;
+			A6B4BBC411D99CD700C61E6A /* PlistBookmark */ = A6B4BBC411D99CD700C61E6A /* PlistBookmark */;
+			A6B4BBC711D99CD700C61E6A /* PBXBookmark */ = A6B4BBC711D99CD700C61E6A /* PBXBookmark */;
+			A6B4BBC811D99CD700C61E6A /* PBXBookmark */ = A6B4BBC811D99CD700C61E6A /* PBXBookmark */;
+			A6E1B04611D6565300113F52 /* PBXTextBookmark */ = A6E1B04611D6565300113F52 /* PBXTextBookmark */;
+			A6E1B05611D656EE00113F52 /* PBXTextBookmark */ = A6E1B05611D656EE00113F52 /* PBXTextBookmark */;
+			A6E1B06A11D6573F00113F52 /* PBXTextBookmark */ = A6E1B06A11D6573F00113F52 /* PBXTextBookmark */;
+			A6E1B0B311D65B2400113F52 /* PBXBookmark */ = A6E1B0B311D65B2400113F52 /* PBXBookmark */;
+			A6E1B0B411D65B2400113F52 /* PBXBookmark */ = A6E1B0B411D65B2400113F52 /* PBXBookmark */;
+			A6E1B0B511D65B2400113F52 /* PBXBookmark */ = A6E1B0B511D65B2400113F52 /* PBXBookmark */;
+			A6E1B0B611D65B2400113F52 /* PBXBookmark */ = A6E1B0B611D65B2400113F52 /* PBXBookmark */;
+			A6E1B0BA11D65B2400113F52 /* PBXBookmark */ = A6E1B0BA11D65B2400113F52 /* PBXBookmark */;
+			A6E1B0CA11D6600500113F52 /* PBXBookmark */ = A6E1B0CA11D6600500113F52 /* PBXBookmark */;
+			A6E1B0CB11D6600500113F52 /* PBXTextBookmark */ = A6E1B0CB11D6600500113F52 /* PBXTextBookmark */;
+			A6E1B0CC11D6600500113F52 /* PBXBookmark */ = A6E1B0CC11D6600500113F52 /* PBXBookmark */;
+			A6E1B0D211D6657500113F52 /* PBXBookmark */ = A6E1B0D211D6657500113F52 /* PBXBookmark */;
+			A6E1B0D311D6657500113F52 /* PBXTextBookmark */ = A6E1B0D311D6657500113F52 /* PBXTextBookmark */;
+			A6E1B0DD11D6659200113F52 /* PBXTextBookmark */ = A6E1B0DD11D6659200113F52 /* PBXTextBookmark */;
+			A6F05DBB11DAE4C60058E5AA /* PlistBookmark */ = A6F05DBB11DAE4C60058E5AA /* PlistBookmark */;
+		};
+		sourceControlManager = A66FB73511B5B99200CC85F6 /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+	29B97316FDCFA39411CA2CEA /* main.mm */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {738, 550}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 361}";
+			sepNavWindowFrame = "{{19, 0}, {1261, 778}}";
+		};
+	};
+	502BC32C1120834600A0B92A /* CocosDenshion.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1314, 11375}}";
+			sepNavSelRange = "{7928, 0}";
+			sepNavVisRange = "{6933, 1040}";
+		};
+	};
+	504DFC7310AF1758006D82FE /* LICENSE.cocos2d */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {529, 665}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 1155}";
+		};
+	};
+	506EE05D10304ED200A389B3 /* cocos2d libraries */ = {
+		activeExec = 0;
+	};
+	50B1F62611130E43001483A3 /* Box2D.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1124, 702}}";
+			sepNavSelRange = "{1184, 0}";
+			sepNavVisRange = "{0, 2187}";
+			sepNavWindowFrame = "{{19, 0}, {1183, 774}}";
+		};
+	};
+	50B1F62911130E43001483A3 /* b2BroadPhase.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {808, 3081}}";
+			sepNavSelRange = "{4712, 0}";
+			sepNavVisRange = "{4351, 683}";
+		};
+	};
+	50B1F62D11130E43001483A3 /* b2Collision.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {621, 2899}}";
+			sepNavSelRange = "{3373, 18}";
+			sepNavVisRange = "{2612, 491}";
+		};
+	};
+	50B1F63611130E43001483A3 /* b2CircleShape.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {544, 1027}}";
+			sepNavSelRange = "{1019, 37}";
+			sepNavVisRange = "{820, 342}";
+		};
+	};
+	50B1F63811130E43001483A3 /* b2PolygonShape.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {579, 1547}}";
+			sepNavSelRange = "{1133, 7}";
+			sepNavVisRange = "{0, 1441}";
+		};
+	};
+	50B1F63B11130E43001483A3 /* b2BlockAllocator.cpp */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {662, 2665}}";
+			sepNavSelRange = "{2446, 0}";
+			sepNavVisRange = "{2126, 849}";
+		};
+	};
+	50B1F63E11130E43001483A3 /* b2Math.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {653, 7930}}";
+			sepNavSelRange = "{9144, 57}";
+			sepNavVisRange = "{8729, 865}";
+		};
+	};
+	50B1F64411130E43001483A3 /* b2Body.cpp */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {726, 5811}}";
+			sepNavSelRange = "{8372, 65}";
+			sepNavVisRange = "{7886, 959}";
+		};
+	};
+	50B1F64511130E43001483A3 /* b2Body.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {726, 9659}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{3968, 2286}";
+		};
+	};
+	50B1F64611130E43001483A3 /* b2ContactManager.cpp */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {677, 3133}}";
+			sepNavSelRange = "{3929, 0}";
+			sepNavVisRange = "{3539, 791}";
+		};
+	};
+	50B1F64811130E43001483A3 /* b2Fixture.cpp */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {719, 1976}}";
+			sepNavSelRange = "{1240, 0}";
+			sepNavVisRange = "{516, 854}";
+		};
+	};
+	50B1F64911130E43001483A3 /* b2Fixture.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {670, 3926}}";
+			sepNavSelRange = "{3029, 16}";
+			sepNavVisRange = "{2649, 1181}";
+		};
+	};
+	50B1F64B11130E43001483A3 /* b2Island.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {683, 1287}}";
+			sepNavSelRange = "{1718, 0}";
+			sepNavVisRange = "{1324, 750}";
+		};
+	};
+	50B1F64C11130E43001483A3 /* b2TimeStep.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {815, 706}}";
+			sepNavSelRange = "{973, 10}";
+			sepNavVisRange = "{0, 1243}";
+			sepNavWindowFrame = "{{19, 0}, {874, 778}}";
+		};
+	};
+	50B1F64D11130E43001483A3 /* b2World.cpp */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {851, 13676}}";
+			sepNavSelRange = "{2289, 0}";
+			sepNavVisRange = "{2016, 687}";
+		};
+	};
+	50B1F64E11130E43001483A3 /* b2World.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {996, 4251}}";
+			sepNavSelRange = "{8364, 0}";
+			sepNavVisRange = "{8084, 599}";
+		};
+	};
+	50B1F65011130E43001483A3 /* b2WorldCallbacks.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {663, 2756}}";
+			sepNavSelRange = "{4067, 123}";
+			sepNavVisRange = "{3248, 1479}";
+		};
+	};
+	50B1F65411130E43001483A3 /* b2Contact.cpp */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {851, 3029}}";
+			sepNavSelRange = "{6300, 0}";
+			sepNavVisRange = "{5853, 494}";
+		};
+	};
+	50B1F65511130E43001483A3 /* b2Contact.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {712, 2899}}";
+			sepNavSelRange = "{3441, 98}";
+			sepNavVisRange = "{3196, 488}";
+		};
+	};
+	50B1F67211130E43001483A3 /* b2WeldJoint.cpp */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {551, 2691}}";
+			sepNavSelRange = "{1172, 6}";
+			sepNavVisRange = "{0, 1330}";
+		};
+	};
+	50BF629C119957B5003B40FA /* CCCameraAction.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1328, 1859}}";
+			sepNavSelRange = "{3779, 4}";
+			sepNavVisRange = "{3046, 855}";
+		};
+	};
+	50BF62A1119957B5003B40FA /* CCConfiguration.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {851, 1846}}";
+			sepNavSelRange = "{4219, 0}";
+			sepNavVisRange = "{1383, 850}";
+		};
+	};
+	50BF62A3119957B5003B40FA /* CCDirector.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {851, 14209}}";
+			sepNavSelRange = "{3223, 0}";
+			sepNavVisRange = "{2836, 916}";
+		};
+	};
+	50BF62C2119957B5003B40FA /* CCNode.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {864, 6552}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{3885, 815}";
+		};
+	};
+	50BF62C3119957B5003B40FA /* CCNode.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1018, 10257}}";
+			sepNavSelRange = "{6872, 0}";
+			sepNavVisRange = "{6359, 889}";
+		};
+	};
+	50BF62CA119957B5003B40FA /* CCParticleExamples.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {579, 1040}}";
+			sepNavSelRange = "{1311, 21}";
+			sepNavVisRange = "{852, 763}";
+		};
+	};
+	50BF62CB119957B5003B40FA /* CCParticleExamples.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {593, 11986}}";
+			sepNavSelRange = "{12529, 36}";
+			sepNavVisRange = "{12193, 602}";
+		};
+	};
+	50BF62CD119957B5003B40FA /* CCParticleSystem.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {796, 9334}}";
+			sepNavSelRange = "{7700, 0}";
+			sepNavVisRange = "{2811, 1099}";
+		};
+	};
+	50BF62E2119957B6003B40FA /* CCScene.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {572, 585}}";
+			sepNavSelRange = "{1308, 0}";
+			sepNavVisRange = "{557, 934}";
+		};
+	};
+	50BF62E4119957B6003B40FA /* CCScheduler.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1048, 7696}}";
+			sepNavSelRange = "{3746, 0}";
+			sepNavVisRange = "{14136, 847}";
+		};
+	};
+	50BF62E5119957B6003B40FA /* CCSprite.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1048, 4173}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{2490, 1829}";
+		};
+	};
+	50BF62E6119957B6003B40FA /* CCSprite.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {761, 11544}}";
+			sepNavSelRange = "{3160, 0}";
+			sepNavVisRange = "{2776, 854}";
+		};
+	};
+	50BF62E8119957B6003B40FA /* CCSpriteFrame.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {851, 2301}}";
+			sepNavSelRange = "{2853, 0}";
+			sepNavVisRange = "{2378, 811}";
+		};
+	};
+	50BF62EA119957B6003B40FA /* CCSpriteFrameCache.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1090, 2847}}";
+			sepNavSelRange = "{1718, 0}";
+			sepNavVisRange = "{5679, 867}";
+		};
+	};
+	50BF62F2119957B6003B40FA /* CCTextureCache.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {796, 3783}}";
+			sepNavSelRange = "{4716, 0}";
+			sepNavVisRange = "{4534, 1010}";
+		};
+	};
+	50BF62F9119957B6003B40FA /* CCTMXLayer.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {908, 2015}}";
+			sepNavSelRange = "{3504, 53}";
+			sepNavVisRange = "{2548, 1780}";
+		};
+	};
+	50BF62FA119957B6003B40FA /* CCTMXLayer.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {894, 8372}}";
+			sepNavSelRange = "{9641, 0}";
+			sepNavVisRange = "{9212, 1008}";
+		};
+	};
+	50BF6300119957B6003B40FA /* CCTMXXMLParser.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1018, 5603}}";
+			sepNavSelRange = "{10155, 0}";
+			sepNavVisRange = "{9418, 1258}";
+		};
+	};
+	50BF6303119957B6003B40FA /* CCTouchDispatcher.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1214, 4012}}";
+			sepNavSelRange = "{7622, 0}";
+			sepNavVisRange = "{7503, 453}";
+		};
+	};
+	50BF6310119957B6003B40FA /* CCFileUtils.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {851, 715}}";
+			sepNavSelRange = "{1876, 0}";
+			sepNavVisRange = "{1005, 981}";
+		};
+	};
+	50BF6313119957B6003B40FA /* CGPointExtension.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {653, 3978}}";
+			sepNavSelRange = "{2002, 50}";
+			sepNavVisRange = "{1589, 678}";
+		};
+	};
+	50BF6316119957B6003B40FA /* EAGLView.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1881, 4255}}";
+			sepNavSelRange = "{9822, 0}";
+			sepNavVisRange = "{9649, 305}";
+		};
+	};
+	50F4143710692D7D002A0D5E /* GLES-Render.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {642, 737}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 1945}";
+		};
+	};
+	50F4143810692D7D002A0D5E /* GLES-Render.mm */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {642, 1914}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 1784}";
+		};
+	};
+	A605F84611B9C1DB00DBD99C /* MUnit.mm:235 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = A66FB79E11B5BA4A00CC85F6 /* MUnit.mm */;
+		functionName = "-performRangeAttack:";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 235;
+		location = "Monster-99.3";
+		modificationTime = 317188303.67543;
+		originalNumberOfMultipleMatches = 1;
+		state = 2;
+	};
+	A60ECAEB11C9CFA4002DE9C7 /* SplashScene.mm:44 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = A66FB7BC11B5BA4A00CC85F6 /* SplashScene.mm */;
+		functionName = "-init";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 44;
+		location = "Monster-99.3";
+		modificationTime = 317188303.722175;
+		originalNumberOfMultipleMatches = 1;
+		state = 2;
+	};
+	A60ECB2B11C9D3AA002DE9C7 /* SplashScene.mm:43 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = A66FB7BC11B5BA4A00CC85F6 /* SplashScene.mm */;
+		functionName = "-init";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 43;
+		location = "Monster-99.3";
+		modificationTime = 317188303.722498;
+		originalNumberOfMultipleMatches = 1;
+		state = 2;
+	};
+	A629A4E111B688F300F951AE /* LevelScene.mm:81 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = A66FB7BA11B5BA4A00CC85F6 /* LevelScene.mm */;
+		functionName = "-update:";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 81;
+		location = "Monster-99.3";
+		modificationTime = 317188303.660063;
+		originalNumberOfMultipleMatches = 1;
+		state = 2;
+	};
+	A629A4E811B68A2100F951AE /* LevelScene.mm:701 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = A66FB7BA11B5BA4A00CC85F6 /* LevelScene.mm */;
+		functionName = "-update:";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 701;
+		location = "Monster-99.3";
+		modificationTime = 317188303.660285;
+		originalNumberOfMultipleMatches = 1;
+		state = 2;
+	};
+	A629A52211B68C3B00F951AE /* LevelScene.mm:693 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = A66FB7BA11B5BA4A00CC85F6 /* LevelScene.mm */;
+		functionName = "-init";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 693;
+		location = "Monster-99.3";
+		modificationTime = 317188303.660568;
+		originalNumberOfMultipleMatches = 1;
+		state = 2;
+	};
+	A629A52911B68C6200F951AE /* LevelScene.mm:701 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = A66FB7BA11B5BA4A00CC85F6 /* LevelScene.mm */;
+		functionName = "-update:";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 701;
+		location = "Monster-99.3";
+		modificationTime = 317188303.66083;
+		originalNumberOfMultipleMatches = 1;
+		state = 2;
+	};
+	A629A66511B6BD9C00F951AE /* LevelScene.mm:693 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = A66FB7BA11B5BA4A00CC85F6 /* LevelScene.mm */;
+		functionName = "-init";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 693;
+		location = "Monster-99.3";
+		modificationTime = 317188303.661222;
+		originalNumberOfMultipleMatches = 1;
+		state = 2;
+	};
+	A629A6FC11B6C48F00F951AE /* LevelScene.mm:693 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = A66FB7BA11B5BA4A00CC85F6 /* LevelScene.mm */;
+		functionName = "-init";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 693;
+		location = "Monster-99.3";
+		modificationTime = 317188303.661582;
+		originalNumberOfMultipleMatches = 1;
+		state = 2;
+	};
+	A629A74A11B6C7C200F951AE /* MUnit.mm:19 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = A66FB79E11B5BA4A00CC85F6 /* MUnit.mm */;
+		functionName = "-initWithName:andPosition:andTeam:";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 19;
+		location = "Monster-99.3";
+		modificationTime = 317188303.661856;
+		originalNumberOfMultipleMatches = 1;
+		state = 2;
+	};
+	A629A75F11B6C86A00F951AE /* MEntity.mm:131 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = A66FB79611B5BA4A00CC85F6 /* MEntity.mm */;
+		functionName = "-update";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 131;
+		location = "Monster-99.3";
+		modificationTime = 317188303.662102;
+		originalNumberOfMultipleMatches = 1;
+		state = 2;
+	};
+	A629A79711B6CBA300F951AE /* MEntity.mm:131 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = A66FB79611B5BA4A00CC85F6 /* MEntity.mm */;
+		functionName = "-update";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 131;
+		location = "Monster-99.3";
+		modificationTime = 317188303.662341;
+		originalNumberOfMultipleMatches = 1;
+		state = 2;
+	};
+	A629A79B11B6CBE000F951AE /* MEntity.mm:131 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = A66FB79611B5BA4A00CC85F6 /* MEntity.mm */;
+		functionName = "-update";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 131;
+		location = "Monster-99.3";
+		modificationTime = 317188303.662602;
+		originalNumberOfMultipleMatches = 1;
+		state = 2;
+	};
+	A629A7C811B6D1D400F951AE /* MUnit.mm:25 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = A66FB79E11B5BA4A00CC85F6 /* MUnit.mm */;
+		functionName = "-initWithName:andPosition:andTeam:";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 25;
+		location = "Monster-99.3";
+		modificationTime = 317188303.662885;
+		originalNumberOfMultipleMatches = 1;
+		state = 2;
+	};
+	A629A7D711B6D28200F951AE /* LevelScene.mm:693 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = A66FB7BA11B5BA4A00CC85F6 /* LevelScene.mm */;
+		functionName = "-init";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 693;
+		location = "Monster-99.3";
+		modificationTime = 317188303.663131;
+		originalNumberOfMultipleMatches = 1;
+		state = 2;
+	};
+	A629A89C11B6F48E00F951AE /* MUnit.mm:183 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = A66FB79E11B5BA4A00CC85F6 /* MUnit.mm */;
+		functionName = "-performMovement:";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 183;
+		location = "Monster-99.3";
+		modificationTime = 317188303.663477;
+		originalNumberOfMultipleMatches = 1;
+		state = 2;
+	};
+	A629A8A011B6F49500F951AE /* MUnit.mm:183 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = A66FB79E11B5BA4A00CC85F6 /* MUnit.mm */;
+		functionName = "-performMovement:";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 183;
+		location = "Monster-99.3";
+		modificationTime = 317188303.66376;
+		originalNumberOfMultipleMatches = 1;
+		state = 2;
+	};
+	A629A8CD11B7049400F951AE /* MUnit.mm:183 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = A66FB79E11B5BA4A00CC85F6 /* MUnit.mm */;
+		functionName = "-performMove:";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 183;
+		location = "Monster-99.3";
+		modificationTime = 317188303.664031;
+		originalNumberOfMultipleMatches = 1;
+		state = 2;
+	};
+	A629A91711B707C400F951AE /* LevelScene.mm:701 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = A66FB7BA11B5BA4A00CC85F6 /* LevelScene.mm */;
+		functionName = "-update:";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 701;
+		location = "Monster-99.3";
+		modificationTime = 317188303.664302;
+		originalNumberOfMultipleMatches = 1;
+		state = 2;
+	};
+	A629A94911B70E0C00F951AE /* MContactListener.mm */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {588, 1287}}";
+			sepNavSelRange = "{1375, 0}";
+			sepNavVisRange = "{880, 1492}";
+			sepNavWindowFrame = "{{19, 0}, {874, 778}}";
+		};
+	};
+	A629A95311B70EAD00F951AE /* MContactListener.mm:101 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = A629A94911B70E0C00F951AE /* MContactListener.mm */;
+		functionName = "Add(const b2ContactPoint* point)";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 101;
+		location = "Monster-99.3";
+		modificationTime = 317188303.664573;
+		originalNumberOfMultipleMatches = 1;
+		state = 2;
+	};
+	A629A95511B70EAE00F951AE /* MContactListener.mm:106 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = A629A94911B70E0C00F951AE /* MContactListener.mm */;
+		functionName = "Persist(const b2ContactPoint* point)";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 106;
+		location = "Monster-99.3";
+		modificationTime = 317188303.664818;
+		originalNumberOfMultipleMatches = 1;
+		state = 2;
+	};
+	A629A95711B70EAF00F951AE /* MContactListener.mm:111 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = A629A94911B70E0C00F951AE /* MContactListener.mm */;
+		functionName = "Remove(const b2ContactPoint* point)";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 111;
+		location = "Monster-99.3";
+		modificationTime = 317188303.665057;
+		originalNumberOfMultipleMatches = 1;
+		state = 2;
+	};
+	A629A95911B70EB000F951AE /* MContactListener.mm:116 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = A629A94911B70E0C00F951AE /* MContactListener.mm */;
+		functionName = "Result(const b2ContactResult* point)";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 116;
+		location = "Monster-99.3";
+		modificationTime = 317188303.665315;
+		originalNumberOfMultipleMatches = 1;
+		state = 2;
+	};
+	A629A96E11B7108400F951AE /* MContactListener.mm:25 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = A629A94911B70E0C00F951AE /* MContactListener.mm */;
+		functionName = "BeginContact(b2Contact* contact)";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 25;
+		location = "Monster-99.3";
+		modificationTime = 317188303.665567;
+		originalNumberOfMultipleMatches = 1;
+		state = 2;
+	};
+	A629A9A111B7133B00F951AE /* MContactListener.mm:40 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = A629A94911B70E0C00F951AE /* MContactListener.mm */;
+		functionName = "BeginContact(b2Contact* contact)";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 40;
+		location = "Monster-99.3";
+		modificationTime = 317188303.66582;
+		originalNumberOfMultipleMatches = 1;
+		state = 2;
+	};
+	A629A9A311B7133C00F951AE /* MContactListener.mm:50 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = A629A94911B70E0C00F951AE /* MContactListener.mm */;
+		functionName = "BeginContact(b2Contact* contact)";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 50;
+		location = "Monster-99.3";
+		modificationTime = 317188303.666062;
+		originalNumberOfMultipleMatches = 1;
+		state = 2;
+	};
+	A629AA0811B71ACB00F951AE /* b2Body.h:749 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = 50B1F64511130E43001483A3 /* b2Body.h */;
+		functionName = "b2Body::ApplyLinearImpulse(const b2Vec2& impulse, const b2Vec2& point)";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 749;
+		location = "Monster-99.3";
+		modificationTime = 317188303.666297;
+		originalNumberOfMultipleMatches = 1;
+		state = 2;
+	};
+	A629AA1711B71B0B00F951AE /* MContactListener.mm:32 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = A629A94911B70E0C00F951AE /* MContactListener.mm */;
+		functionName = "BeginContact(b2Contact* contact)";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 32;
+		location = "Monster-99.3";
+		modificationTime = 317188303.666585;
+		originalNumberOfMultipleMatches = 1;
+		state = 2;
+	};
+	A629AABA11B7314200F951AE /* MEntity.mm:131 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = A66FB79611B5BA4A00CC85F6 /* MEntity.mm */;
+		functionName = "-performTransformation:";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 131;
+		location = "Monster-99.3";
+		modificationTime = 317188303.666878;
+		originalNumberOfMultipleMatches = 1;
+		state = 2;
+	};
+	A629AB8711B73A4800F951AE /* MEntity.mm:131 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = A66FB79611B5BA4A00CC85F6 /* MEntity.mm */;
+		functionName = "-performMoveSprite:";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 131;
+		location = "Monster-99.3";
+		modificationTime = 317188303.667161;
+		originalNumberOfMultipleMatches = 1;
+		state = 2;
+	};
+	A629ABA211B73B9B00F951AE /* MEntity.mm:131 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = A66FB79611B5BA4A00CC85F6 /* MEntity.mm */;
+		functionName = "-performMoveSprite:";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 131;
+		location = "Monster-99.3";
+		modificationTime = 317188303.667441;
+		originalNumberOfMultipleMatches = 1;
+		state = 2;
+	};
+	A629ABF311B7405700F951AE /* MContactListener.mm:24 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = A629A94911B70E0C00F951AE /* MContactListener.mm */;
+		functionName = "BeginContact(b2Contact* contact)";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 24;
+		location = "Monster-99.3";
+		modificationTime = 317188303.66768;
+		originalNumberOfMultipleMatches = 1;
+		state = 2;
+	};
+	A629AC0511B7416700F951AE /* MContactListener.mm:95 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = A629A94911B70E0C00F951AE /* MContactListener.mm */;
+		functionName = "PreSolve(b2Contact* contact, const b2Manifold* oldManifold)";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 95;
+		location = "Monster-99.3";
+		modificationTime = 317188303.667947;
+		originalNumberOfMultipleMatches = 1;
+		state = 2;
+	};
+	A629AC4211B7452700F951AE /* LevelScene.mm:693 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = A66FB7BA11B5BA4A00CC85F6 /* LevelScene.mm */;
+		functionName = "-init";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 693;
+		location = "Monster-99.3";
+		modificationTime = 317188303.668211;
+		originalNumberOfMultipleMatches = 1;
+		state = 2;
+	};
+	A629AC4911B7453900F951AE /* MContactListener.mm:62 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = A629A94911B70E0C00F951AE /* MContactListener.mm */;
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 62;
+		location = "Monster-99.3";
+		modificationTime = 317188303.66846;
+		originalNumberOfMultipleMatches = 1;
+		state = 2;
+	};
+	A629AC4D11B7453C00F951AE /* MContactListener.mm:64 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = A629A94911B70E0C00F951AE /* MContactListener.mm */;
+		functionName = "PreSolve(b2Contact* contact, const b2Manifold* oldManifold)";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 64;
+		location = "Monster-99.3";
+		modificationTime = 317188303.668759;
+		originalNumberOfMultipleMatches = 1;
+		state = 2;
+	};
+	A629AC5311B7455900F951AE /* LevelScene.mm:701 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = A66FB7BA11B5BA4A00CC85F6 /* LevelScene.mm */;
+		functionName = "-update:";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 701;
+		location = "Monster-99.3";
+		modificationTime = 317188303.669006;
+		originalNumberOfMultipleMatches = 1;
+		state = 2;
+	};
+	A629AC6211B7461A00F951AE /* MContactListener.mm:64 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = A629A94911B70E0C00F951AE /* MContactListener.mm */;
+		functionName = "PreSolve(b2Contact* contact, const b2Manifold* oldManifold)";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 64;
+		location = "Monster-99.3";
+		modificationTime = 317188303.669292;
+		originalNumberOfMultipleMatches = 1;
+		state = 2;
+	};
+	A629AD0F11B7581E00F951AE /* LevelScene.mm:696 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = A66FB7BA11B5BA4A00CC85F6 /* LevelScene.mm */;
+		functionName = "-addBall:";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 696;
+		location = "Monster-99.3";
+		modificationTime = 317188303.669559;
+		originalNumberOfMultipleMatches = 1;
+		state = 2;
+	};
+	A629AD6111B758FE00F951AE /* MProjectileManager.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {583, 665}}";
+			sepNavSelRange = "{283, 0}";
+			sepNavVisRange = "{0, 436}";
+			sepNavWindowFrame = "{{19, 0}, {1261, 778}}";
+		};
+	};
+	A629AD6211B758FE00F951AE /* MProjectileManager.mm */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {732, 1386}}";
+			sepNavSelRange = "{1424, 0}";
+			sepNavVisRange = "{427, 1498}";
+			sepNavWindowFrame = "{{19, 0}, {1261, 778}}";
+		};
+	};
+	A629ADA811B75CB400F951AE /* MProjectileManager.mm:99 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = A629AD6211B758FE00F951AE /* MProjectileManager.mm */;
+		functionName = "+addProjectile:";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 99;
+		location = "Monster-99.3";
+		modificationTime = 317188303.669834;
+		originalNumberOfMultipleMatches = 1;
+		state = 2;
+	};
+	A629ADB811B75CF600F951AE /* MProjectileManager.mm:99 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = A629AD6211B758FE00F951AE /* MProjectileManager.mm */;
+		functionName = "+addProjectile:";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 99;
+		location = "Monster-99.3";
+		modificationTime = 317188303.67011;
+		originalNumberOfMultipleMatches = 1;
+		state = 2;
+	};
+	A629AE2A11B7CF0F00F951AE /* MEntity.mm:30 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = A66FB79611B5BA4A00CC85F6 /* MEntity.mm */;
+		functionName = "-dealloc";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 30;
+		location = "Monster-99.3";
+		modificationTime = 317188303.670375;
+		originalNumberOfMultipleMatches = 1;
+		state = 2;
+	};
+	A629AE6D11B8B2A300F951AE /* MUnit.mm:31 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = A66FB79E11B5BA4A00CC85F6 /* MUnit.mm */;
+		functionName = "-getActions:";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 31;
+		location = "Monster-99.3";
+		modificationTime = 317188303.670787;
+		originalNumberOfMultipleMatches = 1;
+		state = 2;
+	};
+	A629AE7511B8B2B100F951AE /* MUnit.mm:31 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = A66FB79E11B5BA4A00CC85F6 /* MUnit.mm */;
+		functionName = "-getActions:";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 31;
+		location = "Monster-99.3";
+		modificationTime = 317188303.671134;
+		originalNumberOfMultipleMatches = 1;
+		state = 2;
+	};
+	A629AF2311B8BE1E00F951AE /* MEntity.mm:30 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = A66FB79611B5BA4A00CC85F6 /* MEntity.mm */;
+		functionName = "-dealloc";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 30;
+		location = "Monster-99.3";
+		modificationTime = 317188303.671399;
+		originalNumberOfMultipleMatches = 1;
+		state = 2;
+	};
+	A629AF7211B8C35E00F951AE /* MEntity.mm:30 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = A66FB79611B5BA4A00CC85F6 /* MEntity.mm */;
+		functionName = "-dealloc";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 30;
+		location = "Monster-99.3";
+		modificationTime = 317188303.671789;
+		originalNumberOfMultipleMatches = 1;
+		state = 2;
+	};
+	A629AF7411B8C35F00F951AE /* MEntity.mm:29 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = A66FB79611B5BA4A00CC85F6 /* MEntity.mm */;
+		functionName = "-dealloc";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 29;
+		location = "Monster-99.3";
+		modificationTime = 317188303.672123;
+		originalNumberOfMultipleMatches = 1;
+		state = 2;
+	};
+	A629AFB811B8C93100F951AE /* LevelScene.mm:81 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = A66FB7BA11B5BA4A00CC85F6 /* LevelScene.mm */;
+		functionName = "-update:";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 81;
+		location = "Monster-99.3";
+		modificationTime = 317188303.672519;
+		originalNumberOfMultipleMatches = 1;
+		state = 2;
+	};
+	A629AFDF11B8CA4800F951AE /* b2Body.h:709 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = 50B1F64511130E43001483A3 /* b2Body.h */;
+		functionName = "b2Body::SetUserData(void* data)";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 709;
+		modificationTime = 317188303.673091;
+		originalNumberOfMultipleMatches = 1;
+		state = 2;
+	};
+	A629AFE711B8CAD700F951AE /* LevelScene.mm:701 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = A66FB7BA11B5BA4A00CC85F6 /* LevelScene.mm */;
+		functionName = "-update:";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 701;
+		modificationTime = 317188303.673482;
+		originalNumberOfMultipleMatches = 0;
+		state = 2;
+	};
+	A629B03A11B8D2B700F951AE /* MProjectileManager.mm:100 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = A629AD6211B758FE00F951AE /* MProjectileManager.mm */;
+		functionName = "+addProjectile::";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 100;
+		location = "Monster-99.3";
+		modificationTime = 317188303.673965;
+		originalNumberOfMultipleMatches = 1;
+		state = 2;
+	};
+	A629B04311B8D2E900F951AE /* MProjectileManager.mm:101 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = A629AD6211B758FE00F951AE /* MProjectileManager.mm */;
+		functionName = "+addProjectile::";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 101;
+		location = "Monster-99.3";
+		modificationTime = 317188303.674335;
+		originalNumberOfMultipleMatches = 1;
+		state = 2;
+	};
+	A629B04C11B8D31200F951AE /* MUnit.mm:235 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = A66FB79E11B5BA4A00CC85F6 /* MUnit.mm */;
+		functionName = "-performRangeAttack:";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 235;
+		location = "Monster-99.3";
+		modificationTime = 317188303.674717;
+		originalNumberOfMultipleMatches = 1;
+		state = 2;
+	};
+	A629B04E11B8D31300F951AE /* MUnit.mm:235 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = A66FB79E11B5BA4A00CC85F6 /* MUnit.mm */;
+		functionName = "-performRangeAttack:";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 235;
+		location = "Monster-99.3";
+		modificationTime = 317188303.675098;
+		originalNumberOfMultipleMatches = 1;
+		state = 2;
+	};
+	A6349EFD11C4536600EF01F7 /* LevelScene.mm:522 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = A66FB7BA11B5BA4A00CC85F6 /* LevelScene.mm */;
+		functionName = "-actionSelection:";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 522;
+		location = "Monster-99.3";
+		modificationTime = 317188303.713081;
+		originalNumberOfMultipleMatches = 1;
+		state = 2;
+	};
+	A6349F0111C453A200EF01F7 /* LevelScene.mm:666 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = A66FB7BA11B5BA4A00CC85F6 /* LevelScene.mm */;
+		functionName = "-ccTouchesMoved:withEvent:";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 666;
+		location = "Monster-99.3";
+		modificationTime = 317188303.713391;
+		originalNumberOfMultipleMatches = 1;
+		state = 2;
+	};
+	A6349F0611C4543100EF01F7 /* LevelScene.mm:567 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = A66FB7BA11B5BA4A00CC85F6 /* LevelScene.mm */;
+		functionName = "-ccTouchesEnded:withEvent:";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 567;
+		location = "Monster-99.3";
+		modificationTime = 317188303.713707;
+		originalNumberOfMultipleMatches = 1;
+		state = 2;
+	};
+	A6349F1D11C4552600EF01F7 /* LevelScene.mm:421 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = A66FB7BA11B5BA4A00CC85F6 /* LevelScene.mm */;
+		functionName = "-updateCameraWithPosition:";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 421;
+		location = "Monster-99.3";
+		modificationTime = 317188303.714019;
+		originalNumberOfMultipleMatches = 1;
+		state = 2;
+	};
+	A6349F3311C455C400EF01F7 /* LevelScene.mm:422 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = A66FB7BA11B5BA4A00CC85F6 /* LevelScene.mm */;
+		functionName = "-updateCameraWithPosition:";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 422;
+		location = "Monster-99.3";
+		modificationTime = 317188303.714336;
+		originalNumberOfMultipleMatches = 1;
+		state = 2;
+	};
+	A634A00D11C46EA100EF01F7 /* LevelScene.mm:500 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = A66FB7BA11B5BA4A00CC85F6 /* LevelScene.mm */;
+		functionName = "-actionSelection:";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 500;
+		location = "Monster-99.3";
+		modificationTime = 317188303.714647;
+		originalNumberOfMultipleMatches = 1;
+		state = 2;
+	};
+	A634A02611C470DB00EF01F7 /* LevelScene.mm:369 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = A66FB7BA11B5BA4A00CC85F6 /* LevelScene.mm */;
+		functionName = "-bindMoveTiles";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 369;
+		location = "Monster-99.3";
+		modificationTime = 317188303.714964;
+		originalNumberOfMultipleMatches = 1;
+		state = 2;
+	};
+	A634A04311C471A500EF01F7 /* LevelScene.mm:360 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = A66FB7BA11B5BA4A00CC85F6 /* LevelScene.mm */;
+		functionName = "-bindMoveTiles";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 360;
+		location = "Monster-99.3";
+		modificationTime = 317188303.71528;
+		originalNumberOfMultipleMatches = 1;
+		state = 2;
+	};
+	A634A05411C4729100EF01F7 /* LevelScene.mm:370 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = A66FB7BA11B5BA4A00CC85F6 /* LevelScene.mm */;
+		functionName = "-bindMoveTiles";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 370;
+		location = "Monster-99.3";
+		modificationTime = 317188303.715603;
+		originalNumberOfMultipleMatches = 1;
+		state = 2;
+	};
+	A634A06211C472E100EF01F7 /* LevelScene.mm:487 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = A66FB7BA11B5BA4A00CC85F6 /* LevelScene.mm */;
+		functionName = "-actionSelection:";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 487;
+		location = "Monster-99.3";
+		modificationTime = 317188303.71602;
+		originalNumberOfMultipleMatches = 1;
+		state = 2;
+	};
+	A634A0A611C4787A00EF01F7 /* LevelScene.mm:443 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = A66FB7BA11B5BA4A00CC85F6 /* LevelScene.mm */;
+		functionName = "-hideActionWheel";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 443;
+		location = "Monster-99.3";
+		modificationTime = 317188303.716328;
+		originalNumberOfMultipleMatches = 1;
+		state = 2;
+	};
+	A634A0B611C4795200EF01F7 /* LevelScene.mm:489 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = A66FB7BA11B5BA4A00CC85F6 /* LevelScene.mm */;
+		functionName = "-actionSelection:";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 489;
+		location = "Monster-99.3";
+		modificationTime = 317188303.716641;
+		originalNumberOfMultipleMatches = 1;
+		state = 2;
+	};
+	A634A0FC11C5237B00EF01F7 /* LevelScene.mm:505 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = A66FB7BA11B5BA4A00CC85F6 /* LevelScene.mm */;
+		functionName = "-actionSelection:";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 505;
+		location = "Monster-99.3";
+		modificationTime = 317188303.716952;
+		originalNumberOfMultipleMatches = 1;
+		state = 2;
+	};
+	A634A12311C525EB00EF01F7 /* MActionTile.mm:37 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = A66FB7B711B5BA4A00CC85F6 /* MActionTile.mm */;
+		functionName = "-initWithFrame:";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 37;
+		location = "Monster-99.3";
+		modificationTime = 317188303.717319;
+		originalNumberOfMultipleMatches = 1;
+		state = 2;
+	};
+	A634A15911C5527D00EF01F7 /* LevelScene.mm:406 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = A66FB7BA11B5BA4A00CC85F6 /* LevelScene.mm */;
+		functionName = "-unbindMoveTiles";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 406;
+		location = "Monster-99.3";
+		modificationTime = 317188303.717633;
+		originalNumberOfMultipleMatches = 1;
+		state = 2;
+	};
+	A634A16211C5533600EF01F7 /* LevelScene.mm:506 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = A66FB7BA11B5BA4A00CC85F6 /* LevelScene.mm */;
+		functionName = "-actionSelection:";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 506;
+		location = "Monster-99.3";
+		modificationTime = 317188303.717956;
+		originalNumberOfMultipleMatches = 1;
+		state = 2;
+	};
+	A634A1AD11C5599A00EF01F7 /* MActionTile.mm:58 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = A66FB7B711B5BA4A00CC85F6 /* MActionTile.mm */;
+		functionName = "-changeType:";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 58;
+		location = "Monster-99.3";
+		modificationTime = 317188303.718278;
+		originalNumberOfMultipleMatches = 1;
+		state = 2;
+	};
+	A634A1C111C55A7100EF01F7 /* MActionTile.mm:63 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = A66FB7B711B5BA4A00CC85F6 /* MActionTile.mm */;
+		functionName = "-setSelected:";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 63;
+		location = "Monster-99.3";
+		modificationTime = 317188303.718585;
+		originalNumberOfMultipleMatches = 1;
+		state = 2;
+	};
+	A638551A11C5E14600CF1B5F /* MUnit.mm:31 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = A66FB79E11B5BA4A00CC85F6 /* MUnit.mm */;
+		functionName = "-getActions:";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 31;
+		location = "Monster-99.3";
+		modificationTime = 317188303.718896;
+		originalNumberOfMultipleMatches = 1;
+		state = 2;
+	};
+	A63A8E9A11DA12810074068F /* HUD-Selectionmarker-blue-frame1.png */ = {
+		uiCtxt = {
+			sepNavWindowFrame = "{{19, 0}, {660, 778}}";
+		};
+	};
+	A63A8EAE11DA142F0074068F /* LevelScene.mm:204 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = A66FB7BA11B5BA4A00CC85F6 /* LevelScene.mm */;
+		functionName = "-loadTheme:";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 204;
+		location = "Monster-99.3";
+		modificationTime = 317188303.735827;
+		originalNumberOfMultipleMatches = 1;
+		state = 2;
+	};
+	A63A8EB211DA145F0074068F /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = A634A0CD11C5215800EF01F7 /* Monster-Map-Actions.png */;
+	};
+	A63A8EB311DA145F0074068F /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = A634A0CC11C5215800EF01F7 /* Monster-Map-Actions.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+		);
+		name = "/Programming/Monster/Resources/Monster-Map-Actions.plist";
+		rLen = 0;
+		rLoc = 9223372036854775808;
+	};
+	A63A8EB411DA145F0074068F /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = A63F04C511CD64B000A14826 /* SelectionMarker1.png */;
+	};
+	A63A8EB511DA145F0074068F /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = A63F04C411CD64B000A14826 /* SelectionMarker2.png */;
+	};
+	A63A8EB611DA145F0074068F /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = A63F04C311CD64B000A14826 /* SelectionMarker3.png */;
+	};
+	A63A8EB711DA145F0074068F /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = A63F04C211CD64B000A14826 /* SelectionMarker4.png */;
+	};
+	A63A8EB811DA145F0074068F /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = A63F04C111CD64B000A14826 /* SelectionMarker5.png */;
+	};
+	A63A8EB911DA145F0074068F /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = A63F04BC11CD64B000A14826 /* SelectionMarker6.png */;
+	};
+	A63A8EBA11DA145F0074068F /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = A63F04BB11CD64B000A14826 /* SelectionMarker7.png */;
+	};
+	A63A8EBB11DA145F0074068F /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = A662C53311D229BD00EBE709 /* SelectionMarker8.png */;
+	};
+	A63A8EBC11DA145F0074068F /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = A63A8E9911DA12810074068F /* HUD-Selectionmarker-blue-frame2.png */;
+	};
+	A63A8EBD11DA145F0074068F /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = A63A8E9811DA12810074068F /* HUD-Selectionmarker-blue-frame3.png */;
+	};
+	A63A8EBE11DA145F0074068F /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = A63A8E9711DA12810074068F /* HUD-Selectionmarker-blue-frame4.png */;
+	};
+	A63A8EBF11DA145F0074068F /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = A63A8E9611DA12810074068F /* HUD-Selectionmarker-blue-frame5.png */;
+	};
+	A63A8EC011DA145F0074068F /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = A63A8E9511DA12810074068F /* HUD-Selectionmarker-blue-frame6.png */;
+	};
+	A63A8EC111DA145F0074068F /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = A63A8E9411DA12810074068F /* HUD-Selectionmarker-blue-frame7.png */;
+	};
+	A63A8EC211DA145F0074068F /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = A63A8E9A11DA12810074068F /* HUD-Selectionmarker-blue-frame1.png */;
+	};
+	A63A8EC311DA145F0074068F /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = A6B4BB4611D99B0F00C61E6A /* HUD-Healthbar-Monster.png */;
+	};
+	A63A8EC411DA145F0074068F /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = A6B4BB6611D99C0400C61E6A /* MonsterTheme.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+		);
+		name = /Programming/Monster/Resources/MonsterTheme.plist;
+		rLen = 0;
+		rLoc = 9223372036854775808;
+	};
+	A63A8ED911DA147D0074068F /* LevelScene.mm:205 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = A66FB7BA11B5BA4A00CC85F6 /* LevelScene.mm */;
+		functionName = "-loadTheme:";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 205;
+		location = "Monster-99.3";
+		modificationTime = 317188303.73619;
+		originalNumberOfMultipleMatches = 1;
+		state = 2;
+	};
+	A63A8EF011DA15440074068F /* LevelScene.mm:161 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = A66FB7BA11B5BA4A00CC85F6 /* LevelScene.mm */;
+		functionName = "-initWithCurrentMatch:currentUnitLayer:currentTerrainLayer:";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 161;
+		location = "Monster-99.3";
+		modificationTime = 317188303.736559;
+		originalNumberOfMultipleMatches = 1;
+		state = 2;
+	};
+	A63A8EFC11DA15960074068F /* LevelScene.mm:159 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = A66FB7BA11B5BA4A00CC85F6 /* LevelScene.mm */;
+		functionName = "-initWithCurrentMatch:currentUnitLayer:currentTerrainLayer:";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 159;
+		location = "Monster-99.3";
+		modificationTime = 317188303.736944;
+		originalNumberOfMultipleMatches = 1;
+		state = 2;
+	};
+	A63F04B211CD59E600A14826 /* MUnit.mm:374 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = A66FB79E11B5BA4A00CC85F6 /* MUnit.mm */;
+		functionName = "-fireProjectile:";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 374;
+		location = "Monster-99.3";
+		modificationTime = 317188303.724103;
+		originalNumberOfMultipleMatches = 1;
+		state = 2;
+	};
+	A63F04E311CD673C00A14826 /* LevelScene.mm:351 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = A66FB7BA11B5BA4A00CC85F6 /* LevelScene.mm */;
+		functionName = "-dealloc";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 351;
+		location = "Monster-99.3";
+		modificationTime = 317188303.724435;
+		originalNumberOfMultipleMatches = 1;
+		state = 2;
+	};
+	A63F064D11CE4DFA00A14826 /* LevelScene.mm:314 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = A66FB7BA11B5BA4A00CC85F6 /* LevelScene.mm */;
+		functionName = "-init::currentUnitLayer:currentTerrainLayer:";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 314;
+		location = "Monster-99.3";
+		modificationTime = 317188303.724822;
+		originalNumberOfMultipleMatches = 1;
+		state = 2;
+	};
+	A63F065611CE4E1600A14826 /* LevelScene.mm:461 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = A66FB7BA11B5BA4A00CC85F6 /* LevelScene.mm */;
+		functionName = "-unitSelection:";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 461;
+		location = "Monster-99.3";
+		modificationTime = 317188303.725154;
+		originalNumberOfMultipleMatches = 1;
+		state = 2;
+	};
+	A63F068E11CE53BE00A14826 /* LevelScene.mm:396 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = A66FB7BA11B5BA4A00CC85F6 /* LevelScene.mm */;
+		functionName = "-update";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 396;
+		location = "Monster-99.3";
+		modificationTime = 317188303.725507;
+		originalNumberOfMultipleMatches = 1;
+		state = 2;
+	};
+	A63F069211CE57EE00A14826 /* LevelScene.mm:393 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = A66FB7BA11B5BA4A00CC85F6 /* LevelScene.mm */;
+		functionName = "-update";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 393;
+		location = "Monster-99.3";
+		modificationTime = 317188303.72586;
+		originalNumberOfMultipleMatches = 1;
+		state = 2;
+	};
+	A63F06A611CE58C000A14826 /* LevelScene.mm:270 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = A66FB7BA11B5BA4A00CC85F6 /* LevelScene.mm */;
+		functionName = "-update";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 270;
+		location = "Monster-99.3";
+		modificationTime = 317188303.726217;
+		originalNumberOfMultipleMatches = 1;
+		state = 2;
+	};
+	A64B201511C158FC003B4B89 /* MEntityManager.mm:167 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = A66FB7A811B5BA4A00CC85F6 /* MEntityManager.mm */;
+		functionName = "+update";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 167;
+		location = "Monster-99.3";
+		modificationTime = 317188303.691733;
+		originalNumberOfMultipleMatches = 1;
+		state = 2;
+	};
+	A64B204C11C15C48003B4B89 /* MEntityManager.mm:59 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = A66FB7A811B5BA4A00CC85F6 /* MEntityManager.mm */;
+		functionName = "+cleanUpEntityQueue";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 59;
+		location = "Monster-99.3";
+		modificationTime = 317188303.692193;
+		originalNumberOfMultipleMatches = 1;
+		state = 2;
+	};
+	A64B205F11C15CEF003B4B89 /* MEntityManager.mm:156 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = A66FB7A811B5BA4A00CC85F6 /* MEntityManager.mm */;
+		functionName = "+update";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 156;
+		location = "Monster-99.3";
+		modificationTime = 317188303.69257;
+		originalNumberOfMultipleMatches = 1;
+		state = 2;
+	};
+	A64B206111C15CF4003B4B89 /* MEntityManager.mm:158 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = A66FB7A811B5BA4A00CC85F6 /* MEntityManager.mm */;
+		functionName = "+update";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 158;
+		location = "Monster-99.3";
+		modificationTime = 317188303.692938;
+		originalNumberOfMultipleMatches = 1;
+		state = 2;
+	};
+	A64B206A11C15D91003B4B89 /* MObject.m:44 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = A6E5C3D911BC565E00914CE3 /* MObject.m */;
+		functionName = "-dealloc";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 44;
+		location = "Monster-99.3";
+		modificationTime = 317188303.693343;
+		originalNumberOfMultipleMatches = 1;
+		state = 2;
+	};
+	A64B20B911C1606A003B4B89 /* MEntity.mm:131 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = A66FB79611B5BA4A00CC85F6 /* MEntity.mm */;
+		functionName = "-update";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 131;
+		location = "Monster-99.3";
+		modificationTime = 317188303.693797;
+		originalNumberOfMultipleMatches = 1;
+		state = 2;
+	};
+	A64B20C211C161E8003B4B89 /* MProjectile.m:25 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = A6E5C3D611BC55F600914CE3 /* MProjectile.m */;
+		functionName = "-initWithPosition:andForce:andDamage:";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 25;
+		location = "Monster-99.3";
+		modificationTime = 317188303.694144;
+		originalNumberOfMultipleMatches = 1;
+		state = 2;
+	};
+	A64B20CC11C16219003B4B89 /* MProjectile.m:33 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = A6E5C3D611BC55F600914CE3 /* MProjectile.m */;
+		functionName = "-initWithSprite:andPosition:andForce:andDamage:";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 33;
+		location = "Monster-99.3";
+		modificationTime = 317188303.694492;
+		originalNumberOfMultipleMatches = 1;
+		state = 2;
+	};
+	A64B20D411C162C5003B4B89 /* MUnit.mm:245 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = A66FB79E11B5BA4A00CC85F6 /* MUnit.mm */;
+		functionName = "-fireProjectile:";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 245;
+		location = "Monster-99.3";
+		modificationTime = 317188303.694831;
+		originalNumberOfMultipleMatches = 1;
+		state = 2;
+	};
+	A64B212011C19EE5003B4B89 /* MPersona.mm:23 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = A66FB7A311B5BA4A00CC85F6 /* MPersona.mm */;
+		functionName = "+initialize";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 23;
+		location = "Monster-99.3";
+		modificationTime = 317188303.695162;
+		originalNumberOfMultipleMatches = 1;
+		state = 2;
+	};
+	A64B212811C1A261003B4B89 /* MSettings.mm:30 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = A66FB79311B5BA4A00CC85F6 /* MSettings.mm */;
+		functionName = "+initialize";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 30;
+		location = "Monster-99.3";
+		modificationTime = 317188303.695624;
+		originalNumberOfMultipleMatches = 1;
+		state = 2;
+	};
+	A64B213711C1A2B3003B4B89 /* MSettings.mm:30 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = A66FB79311B5BA4A00CC85F6 /* MSettings.mm */;
+		functionName = "+initialize";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 30;
+		location = "Monster-99.3";
+		modificationTime = 317188303.703086;
+		originalNumberOfMultipleMatches = 1;
+		state = 2;
+	};
+	A64B214811C1A2F8003B4B89 /* MSettings.mm:30 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = A66FB79311B5BA4A00CC85F6 /* MSettings.mm */;
+		functionName = "+initialize";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 30;
+		location = "Monster-99.3";
+		modificationTime = 317188303.703441;
+		originalNumberOfMultipleMatches = 1;
+		state = 2;
+	};
+	A64B21CC11C1B6C6003B4B89 /* MUnit.mm:253 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = A66FB79E11B5BA4A00CC85F6 /* MUnit.mm */;
+		functionName = "-fireProjectile:";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 253;
+		location = "Monster-99.3";
+		modificationTime = 317188303.704162;
+		originalNumberOfMultipleMatches = 1;
+		state = 2;
+	};
+	A64B21D611C1B6DA003B4B89 /* MUnit.mm:240 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = A66FB79E11B5BA4A00CC85F6 /* MUnit.mm */;
+		functionName = "-fireProjectile:";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 240;
+		location = "Monster-99.3";
+		modificationTime = 317188303.704617;
+		originalNumberOfMultipleMatches = 1;
+		state = 2;
+	};
+	A64B21DA11C1B6ED003B4B89 /* MUnit.mm:236 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = A66FB79E11B5BA4A00CC85F6 /* MUnit.mm */;
+		functionName = "-performRangeAttack:";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 236;
+		location = "Monster-99.3";
+		modificationTime = 317188303.705706;
+		originalNumberOfMultipleMatches = 1;
+		state = 2;
+	};
+	A64B21EA11C1BA67003B4B89 /* MProjectileManager.mm:20 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = A629AD6211B758FE00F951AE /* MProjectileManager.mm */;
+		functionName = "+initWithLayer:";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 20;
+		location = "Monster-99.3";
+		modificationTime = 317188303.706336;
+		originalNumberOfMultipleMatches = 1;
+		state = 2;
+	};
+	A64B21FD11C1BB28003B4B89 /* LevelScene.mm:55 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = A66FB7BA11B5BA4A00CC85F6 /* LevelScene.mm */;
+		functionName = "-init";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 55;
+		location = "Monster-99.3";
+		modificationTime = 317188303.706807;
+		originalNumberOfMultipleMatches = 1;
+		state = 2;
+	};
+	A64B222711C1BC48003B4B89 /* LevelScene.mm:38 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = A66FB7BA11B5BA4A00CC85F6 /* LevelScene.mm */;
+		functionName = "-init";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 38;
+		location = "Monster-99.3";
+		modificationTime = 317188303.707211;
+		originalNumberOfMultipleMatches = 1;
+		state = 2;
+	};
+	A64B222A11C1BC51003B4B89 /* LevelScene.mm:46 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = A66FB7BA11B5BA4A00CC85F6 /* LevelScene.mm */;
+		functionName = "-init";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 46;
+		location = "Monster-99.3";
+		modificationTime = 317188303.70757;
+		originalNumberOfMultipleMatches = 1;
+		state = 2;
+	};
+	A64B22FE11C1D02A003B4B89 /* MUnit.mm:183 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = A66FB79E11B5BA4A00CC85F6 /* MUnit.mm */;
+		functionName = "-performDamage:";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 183;
+		location = "Monster-99.3";
+		modificationTime = 317188303.707963;
+		originalNumberOfMultipleMatches = 1;
+		state = 2;
+	};
+	A64B231911C1D35C003B4B89 /* MUnit.mm:229 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = A66FB79E11B5BA4A00CC85F6 /* MUnit.mm */;
+		functionName = "-performRangeAttack:";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 229;
+		location = "Monster-99.3";
+		modificationTime = 317188303.708415;
+		originalNumberOfMultipleMatches = 1;
+		state = 2;
+	};
+	A64B239C11C1DA02003B4B89 /* MProjectileManager.mm:111 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = A629AD6211B758FE00F951AE /* MProjectileManager.mm */;
+		functionName = "+remove:";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 111;
+		location = "Monster-99.3";
+		modificationTime = 317188303.708914;
+		originalNumberOfMultipleMatches = 1;
+		state = 2;
+	};
+	A64F218311CC6937000C7E6D /* MContactListener.mm:86 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = A629A94911B70E0C00F951AE /* MContactListener.mm */;
+		functionName = "PreSolve(b2Contact* contact, const b2Manifold* oldManifold)";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 86;
+		modificationTime = 317188303.72282;
+		originalNumberOfMultipleMatches = 0;
+		state = 2;
+	};
+	A64F218511CC6938000C7E6D /* MContactListener.mm:87 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = A629A94911B70E0C00F951AE /* MContactListener.mm */;
+		functionName = "PreSolve(b2Contact* contact, const b2Manifold* oldManifold)";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 87;
+		location = "Monster-99.3";
+		modificationTime = 317188303.72314;
+		originalNumberOfMultipleMatches = 1;
+		state = 2;
+	};
+	A64F21C911CC6C5C000C7E6D /* MEntity.mm:123 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = A66FB79611B5BA4A00CC85F6 /* MEntity.mm */;
+		functionName = "-performShakeWithForce:";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 123;
+		location = "Monster-99.3";
+		modificationTime = 317188303.723455;
+		originalNumberOfMultipleMatches = 1;
+		state = 2;
+	};
+	A64F21DF11CC6D2D000C7E6D /* MEntity.mm:122 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = A66FB79611B5BA4A00CC85F6 /* MEntity.mm */;
+		functionName = "-performShakeWithForce:";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 122;
+		location = "Monster-99.3";
+		modificationTime = 317188303.723777;
+		originalNumberOfMultipleMatches = 1;
+		state = 2;
+	};
+	A6503BF311BF256400F305AD /* LevelScene.mm:107 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = A66FB7BA11B5BA4A00CC85F6 /* LevelScene.mm */;
+		functionName = "-continueMatch";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 107;
+		location = "Monster-99.3";
+		modificationTime = 317188303.689411;
+		originalNumberOfMultipleMatches = 1;
+		state = 2;
+	};
+	A6503C4711BF2A8800F305AD /* MActor.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {579, 456}}";
+			sepNavSelRange = "{134, 0}";
+			sepNavVisRange = "{0, 460}";
+		};
+	};
+	A6503C4811BF2A8800F305AD /* MActor.mm */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {579, 481}}";
+			sepNavSelRange = "{485, 0}";
+			sepNavVisRange = "{0, 549}";
+		};
+	};
+	A6503C8811BF30D600F305AD /* MProjectileManager.mm:70 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = A629AD6211B758FE00F951AE /* MProjectileManager.mm */;
+		functionName = "+add:";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 70;
+		location = "Monster-99.3";
+		modificationTime = 317188303.689759;
+		originalNumberOfMultipleMatches = 1;
+		state = 2;
+	};
+	A6503CE011BF34C600F305AD /* MProjectileManager.mm:86 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = A629AD6211B758FE00F951AE /* MProjectileManager.mm */;
+		functionName = "+add:";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 86;
+		location = "Monster-99.3";
+		modificationTime = 317188303.690085;
+		originalNumberOfMultipleMatches = 1;
+		state = 2;
+	};
+	A6503D1711BF37A500F305AD /* MUnit.mm:244 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = A66FB79E11B5BA4A00CC85F6 /* MUnit.mm */;
+		functionName = "-fireProjectile:";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 244;
+		location = "Monster-99.3";
+		modificationTime = 317188303.690432;
+		originalNumberOfMultipleMatches = 1;
+		state = 2;
+	};
+	A6503D3C11BF38AF00F305AD /* MEntityManager.mm:278 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = A66FB7A811B5BA4A00CC85F6 /* MEntityManager.mm */;
+		functionName = "+remove::Cleanup:";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 278;
+		location = "Monster-99.3";
+		modificationTime = 317188303.690776;
+		originalNumberOfMultipleMatches = 1;
+		state = 2;
+	};
+	A6503D7D11BF3CA500F305AD /* MEntityManager.mm:273 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = A66FB7A811B5BA4A00CC85F6 /* MEntityManager.mm */;
+		functionName = "+remove::Cleanup:";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 273;
+		location = "Monster-99.3";
+		modificationTime = 317188303.691112;
+		originalNumberOfMultipleMatches = 1;
+		state = 2;
+	};
+	A6503DF211BFD43500F305AD /* MEntityManager.mm:244 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = A66FB7A811B5BA4A00CC85F6 /* MEntityManager.mm */;
+		functionName = "+remove::";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 244;
+		location = "Monster-99.3";
+		modificationTime = 317188303.691413;
+		originalNumberOfMultipleMatches = 1;
+		state = 2;
+	};
+	A65CEF4A12E7E5BB00791A77 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1F3B9A2C0EF2145700286867 /* Monster_99_3AppDelegate.h */;
+		name = "Monster_99_3AppDelegate.h: 18";
+		rLen = 0;
+		rLoc = 328;
+		rType = 0;
+		vrLen = 328;
+		vrLoc = 0;
+	};
+	A65CEF4B12E7E5BB00791A77 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1F3B9A820EF2151B00286867 /* Monster_99_3_Prefix.pch */;
+		name = "Monster_99_3_Prefix.pch: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 187;
+		vrLoc = 0;
+	};
+	A65CEF4C12E7E5BB00791A77 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 29B97316FDCFA39411CA2CEA /* main.mm */;
+		name = "main.mm: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 361;
+		vrLoc = 0;
+	};
+	A65CEF4D12E7E5BB00791A77 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = A66FB79311B5BA4A00CC85F6 /* MSettings.mm */;
+		name = "MSettings.mm: 28";
+		rLen = 0;
+		rLoc = 462;
+		rType = 0;
+		vrLen = 472;
+		vrLoc = 0;
+	};
+	A65CEF4E12E7E5BB00791A77 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = A66FB79211B5BA4A00CC85F6 /* MSettings.h */;
+		name = "MSettings.h: 18";
+		rLen = 14;
+		rLoc = 331;
+		rType = 0;
+		vrLen = 388;
+		vrLoc = 0;
+	};
+	A65CEF4F12E7E5BB00791A77 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = A66FB79111B5BA4A00CC85F6 /* MVertexUtil.mm */;
+		name = "MVertexUtil.mm: 29";
+		rLen = 0;
+		rLoc = 504;
+		rType = 0;
+		vrLen = 614;
+		vrLoc = 0;
+	};
+	A65CEF5012E7E5BB00791A77 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = A66FB79011B5BA4A00CC85F6 /* MVertexUtil.h */;
+		name = "MVertexUtil.h: 12";
+		rLen = 0;
+		rLoc = 123;
+		rType = 0;
+		vrLen = 303;
+		vrLoc = 0;
+	};
+	A65CEF5112E7E5BB00791A77 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = A6E5C3D811BC565E00914CE3 /* MObject.h */;
+		name = "MObject.h: 12";
+		rLen = 0;
+		rLoc = 204;
+		rType = 0;
+		vrLen = 599;
+		vrLoc = 0;
+	};
+	A65CEF5212E7E5BB00791A77 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = A6E5C3D911BC565E00914CE3 /* MObject.m */;
+		name = "MObject.m: 41";
+		rLen = 0;
+		rLoc = 613;
+		rType = 0;
+		vrLen = 607;
+		vrLoc = 34;
+	};
+	A65CEF5312E7E5BB00791A77 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = A66FB7B911B5BA4A00CC85F6 /* LevelScene.h */;
+		name = "LevelScene.h: 53";
+		rLen = 0;
+		rLoc = 1021;
+		rType = 0;
+		vrLen = 2454;
+		vrLoc = 221;
+	};
+	A65CEF5412E7E5BB00791A77 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1F3B9A2B0EF2145700286867 /* Monster_99_3AppDelegate.mm */;
+		name = "Monster_99_3AppDelegate.mm: 56";
+		rLen = 5;
+		rLoc = 1841;
+		rType = 0;
+		vrLen = 1488;
+		vrLoc = 726;
+	};
+	A65CEF5912E7E64B00791A77 /* LevelScene.mm:295 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = A66FB7BA11B5BA4A00CC85F6 /* LevelScene.mm */;
+		functionName = "-init::currentUnitLayer:currentTerrainLayer:";
+		hitCount = 1;
+		ignoreCount = 0;
+		lineNumber = 295;
+		location = "Monster-99.3";
+		modificationTime = 317188305.918294;
+		originalNumberOfMultipleMatches = 1;
+		state = 1;
+	};
+	A65CEF5B12E7E65000791A77 /* LevelScene.mm:156 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = A66FB7BA11B5BA4A00CC85F6 /* LevelScene.mm */;
+		functionName = "-initWithCurrentMatch:currentUnitLayer:currentTerrainLayer:";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 156;
+		location = "Monster-99.3";
+		modificationTime = 317188303.738117;
+		originalNumberOfMultipleMatches = 1;
+		state = 2;
+	};
+	A65CEF5D12E7E65600791A77 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = A66FB7BA11B5BA4A00CC85F6 /* LevelScene.mm */;
+		name = "LevelScene.mm: 96";
+		rLen = 0;
+		rLoc = 2214;
+		rType = 0;
+		vrLen = 1633;
+		vrLoc = 2041;
+	};
+	A65CEF6612E7E72500791A77 /* LevelScene.mm:357 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = A66FB7BA11B5BA4A00CC85F6 /* LevelScene.mm */;
+		functionName = "-bindMoveTiles";
+		hitCount = 2;
+		ignoreCount = 0;
+		lineNumber = 357;
+		location = "Monster-99.3";
+		modificationTime = 317188334.852019;
+		originalNumberOfMultipleMatches = 1;
+		state = 2;
+	};
+	A65CEF6E12E7E76400791A77 /* MUnit.mm:35 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = A66FB79E11B5BA4A00CC85F6 /* MUnit.mm */;
+		functionName = "-getActions:";
+		hitCount = 2;
+		ignoreCount = 0;
+		lineNumber = 35;
+		location = "Monster-99.3";
+		modificationTime = 317188339.622177;
+		originalNumberOfMultipleMatches = 1;
+		state = 2;
+	};
+	A65CEF7E12E7E9A900791A77 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = A66FB7BA11B5BA4A00CC85F6 /* LevelScene.mm */;
+		name = "LevelScene.mm: 76";
+		rLen = 0;
+		rLoc = 2232;
+		rType = 0;
+		vrLen = 3300;
+		vrLoc = 8352;
+	};
+	A662C25711D1857900EBE709 /* MUnit.mm:93 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = A66FB79E11B5BA4A00CC85F6 /* MUnit.mm */;
+		functionName = "-getActions:";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 93;
+		location = "Monster-99.3";
+		modificationTime = 317188303.727936;
+		originalNumberOfMultipleMatches = 1;
+		state = 2;
+	};
+	A662C26411D18D5300EBE709 /* LevelScene.mm:362 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = A66FB7BA11B5BA4A00CC85F6 /* LevelScene.mm */;
+		functionName = "-bindMoveTiles";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 362;
+		location = "Monster-99.3";
+		modificationTime = 317188303.728294;
+		originalNumberOfMultipleMatches = 1;
+		state = 2;
+	};
+	A662C28511D18F1C00EBE709 /* MUnit.mm:94 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = A66FB79E11B5BA4A00CC85F6 /* MUnit.mm */;
+		functionName = "-getActions:";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 94;
+		location = "Monster-99.3";
+		modificationTime = 317188303.728665;
+		originalNumberOfMultipleMatches = 1;
+		state = 2;
+	};
+	A662C29A11D196C300EBE709 /* MAStarSearch.mm:221 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = A66FB7A511B5BA4A00CC85F6 /* MAStarSearch.mm */;
+		functionName = "-getActionFromNode:";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 221;
+		location = "Monster-99.3";
+		modificationTime = 317188303.72901;
+		originalNumberOfMultipleMatches = 1;
+		state = 2;
+	};
+	A662C2CF11D1A84400EBE709 /* MAStarSearch.mm:249 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = A66FB7A511B5BA4A00CC85F6 /* MAStarSearch.mm */;
+		functionName = "-getActionFromNode:";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 249;
+		location = "Monster-99.3";
+		modificationTime = 317188303.729348;
+		originalNumberOfMultipleMatches = 1;
+		state = 2;
+	};
+	A662C33911D1B63C00EBE709 /* MAStarSearch.mm:247 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = A66FB7A511B5BA4A00CC85F6 /* MAStarSearch.mm */;
+		functionName = "-getActionFromNode:";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 247;
+		location = "Monster-99.3";
+		modificationTime = 317188303.729699;
+		originalNumberOfMultipleMatches = 1;
+		state = 2;
+	};
+	A662C33B11D1B65800EBE709 /* MAStarSearch.mm:245 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = A66FB7A511B5BA4A00CC85F6 /* MAStarSearch.mm */;
+		functionName = "-getActionFromNode:";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 245;
+		location = "Monster-99.3";
+		modificationTime = 317188303.730052;
+		originalNumberOfMultipleMatches = 1;
+		state = 2;
+	};
+	A662C37B11D1BADD00EBE709 /* MAStarSearch.mm:250 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = A66FB7A511B5BA4A00CC85F6 /* MAStarSearch.mm */;
+		functionName = "-getParentMoveFromNode::";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 250;
+		location = "Monster-99.3";
+		modificationTime = 317188303.730387;
+		originalNumberOfMultipleMatches = 1;
+		state = 2;
+	};
+	A662C38111D1BB9700EBE709 /* MAStarSearch.mm:250 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = A66FB7A511B5BA4A00CC85F6 /* MAStarSearch.mm */;
+		functionName = "-getParentMoveFromNode::";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 250;
+		location = "Monster-99.3";
+		modificationTime = 317188303.730738;
+		originalNumberOfMultipleMatches = 1;
+		state = 2;
+	};
+	A662C39F11D1BCE500EBE709 /* MAStarSearch.mm:250 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = A66FB7A511B5BA4A00CC85F6 /* MAStarSearch.mm */;
+		functionName = "-getParentMoveFromNode::";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 250;
+		location = "Monster-99.3";
+		modificationTime = 317188303.731087;
+		originalNumberOfMultipleMatches = 1;
+		state = 2;
+	};
+	A66FB70811B5B95500CC85F6 /* Monster-99.3 */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 1;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 0;
+		dataTipCustomDataFormattersEnabled = 1;
+		dataTipShowTypeColumn = 1;
+		dataTipSortType = 0;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		dylibVariantSuffix = "";
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = "Monster-99.3";
+		savedGlobals = {
+		};
+		showTypeColumn = 1;
+		sourceDirectories = (
+		);
+		variableFormatDictionary = {
+		};
+	};
+	A66FB73511B5B99200CC85F6 /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+			repositoryNamesForRoots = {
+				"" = Monster;
+			};
+		};
+	};
+	A66FB73611B5B99200CC85F6 /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+	A66FB79011B5BA4A00CC85F6 /* MVertexUtil.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {738, 550}}";
+			sepNavSelRange = "{123, 0}";
+			sepNavVisRange = "{0, 303}";
+			sepNavWindowFrame = "{{19, 0}, {874, 778}}";
+		};
+	};
+	A66FB79111B5BA4A00CC85F6 /* MVertexUtil.mm */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {738, 550}}";
+			sepNavSelRange = "{504, 0}";
+			sepNavVisRange = "{0, 614}";
+		};
+	};
+	A66FB79211B5BA4A00CC85F6 /* MSettings.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {738, 550}}";
+			sepNavSelRange = "{331, 14}";
+			sepNavVisRange = "{0, 388}";
+			sepNavWindowFrame = "{{19, 0}, {874, 778}}";
+		};
+	};
+	A66FB79311B5BA4A00CC85F6 /* MSettings.mm */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {738, 550}}";
+			sepNavSelRange = "{462, 0}";
+			sepNavVisRange = "{0, 472}";
+		};
+	};
+	A66FB79511B5BA4A00CC85F6 /* MEntity.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1124, 702}}";
+			sepNavSelRange = "{575, 0}";
+			sepNavVisRange = "{0, 1034}";
+			sepNavWindowFrame = "{{19, 0}, {1183, 774}}";
+		};
+	};
+	A66FB79611B5BA4A00CC85F6 /* MEntity.mm */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1202, 1463}}";
+			sepNavSelRange = "{474, 0}";
+			sepNavVisRange = "{0, 1484}";
+			sepNavWindowFrame = "{{19, 0}, {1261, 778}}";
+		};
+	};
+	A66FB79711B5BA4A00CC85F6 /* MStructure.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {901, 642}}";
+			sepNavSelRange = "{119, 0}";
+			sepNavVisRange = "{0, 375}";
+		};
+	};
+	A66FB79811B5BA4A00CC85F6 /* MStructure.mm */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1296, 550}}";
+			sepNavSelRange = "{881, 0}";
+			sepNavVisRange = "{28, 1430}";
+		};
+	};
+	A66FB79911B5BA4A00CC85F6 /* MMove.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {528, 483}}";
+			sepNavSelRange = "{413, 0}";
+			sepNavVisRange = "{0, 512}";
+			sepNavWindowFrame = "{{19, 0}, {874, 778}}";
+		};
+	};
+	A66FB79A11B5BA4A00CC85F6 /* MMove.mm */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1124, 702}}";
+			sepNavSelRange = "{188, 85}";
+			sepNavVisRange = "{0, 466}";
+			sepNavWindowFrame = "{{19, 0}, {1183, 774}}";
+		};
+	};
+	A66FB79B11B5BA4A00CC85F6 /* MAction.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {503, 483}}";
+			sepNavSelRange = "{8, 0}";
+			sepNavVisRange = "{0, 326}";
+		};
+	};
+	A66FB79C11B5BA4A00CC85F6 /* MAction.mm */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1124, 702}}";
+			sepNavSelRange = "{92, 24}";
+			sepNavVisRange = "{0, 793}";
+			sepNavWindowFrame = "{{19, 0}, {1183, 774}}";
+		};
+	};
+	A66FB79D11B5BA4A00CC85F6 /* MUnit.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {619, 483}}";
+			sepNavSelRange = "{66, 31}";
+			sepNavVisRange = "{0, 978}";
+			sepNavWindowFrame = "{{19, 0}, {874, 778}}";
+		};
+	};
+	A66FB79E11B5BA4A00CC85F6 /* MUnit.mm */ = {
+		uiCtxt = {
+			sepNavFolds = "{\n    c =     (\n                {\n            r = \"{12519, 30}\";\n            s = 0;\n        }\n    );\n    r = \"{0, 13960}\";\n    s = 0;\n}";
+			sepNavIntBoundsRect = "{{0, 0}, {1214, 5834}}";
+			sepNavSelRange = "{705, 0}";
+			sepNavVisRange = "{589, 486}";
+			sepNavWindowFrame = "{{19, 0}, {1261, 778}}";
+		};
+	};
+	A66FB7A011B5BA4A00CC85F6 /* JAPriorityQueue.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {912, 6248}}";
+			sepNavSelRange = "{5880, 0}";
+			sepNavVisRange = "{5649, 765}";
+			sepNavWindowFrame = "{{19, 0}, {1261, 778}}";
+		};
+	};
+	A66FB7A111B5BA4A00CC85F6 /* JAPriorityQueue.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {798, 748}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{3, 1747}";
+		};
+	};
+	A66FB7A211B5BA4A00CC85F6 /* MPersona.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1218, 506}}";
+			sepNavSelRange = "{1354, 0}";
+			sepNavVisRange = "{3, 1357}";
+			sepNavWindowFrame = "{{19, 0}, {874, 778}}";
+		};
+	};
+	A66FB7A311B5BA4A00CC85F6 /* MPersona.mm */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1212, 1452}}";
+			sepNavSelRange = "{2688, 0}";
+			sepNavVisRange = "{429, 3272}";
+		};
+	};
+	A66FB7A411B5BA4A00CC85F6 /* MAStarSearch.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {858, 638}}";
+			sepNavSelRange = "{1450, 0}";
+			sepNavVisRange = "{0, 1455}";
+		};
+	};
+	A66FB7A511B5BA4A00CC85F6 /* MAStarSearch.mm */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {852, 2772}}";
+			sepNavSelRange = "{6423, 0}";
+			sepNavVisRange = "{5115, 1315}";
+			sepNavWindowFrame = "{{19, 0}, {874, 778}}";
+		};
+	};
+	A66FB7A711B5BA4A00CC85F6 /* MEntityManager.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {583, 665}}";
+			sepNavSelRange = "{429, 0}";
+			sepNavVisRange = "{0, 1121}";
+		};
+	};
+	A66FB7A811B5BA4A00CC85F6 /* MEntityManager.mm */ = {
+		uiCtxt = {
+			sepNavFolds = "{\n    c =     (\n                {\n            r = \"{1264, 16}\";\n            s = 0;\n        },\n                {\n            r = \"{1323, 29}\";\n            s = 0;\n        },\n                {\n            r = \"{1381, 234}\";\n            s = 0;\n        },\n                {\n            r = \"{1632, 3100}\";\n            s = 0;\n        },\n                {\n            r = \"{4779, 26}\";\n            s = 0;\n        },\n                {\n            r = \"{4835, 22}\";\n            s = 0;\n        },\n                {\n            r = \"{4885, 21}\";\n            s = 0;\n        },\n                {\n            r = \"{4962, 930}\";\n            s = 0;\n        },\n                {\n            r = \"{5968, 652}\";\n            s = 0;\n        },\n                {\n            r = \"{6678, 44}\";\n            s = 0;\n        },\n                {\n            r = \"{6803, 1103}\";\n            s = 0;\n        },\n                {\n            r = \"{7951, 118}\";\n            s = 0;\n        },\n                {\n            r = \"{8113, 392}\";\n            s = 0;\n        }\n    );\n    r = \"{0, 9100}\";\n    s = 0;\n}";
+			sepNavIntBoundsRect = "{{0, 0}, {1214, 1298}}";
+			sepNavSelRange = "{1407, 27}";
+			sepNavVisRange = "{1263, 397}";
+			sepNavWindowFrame = "{{19, 0}, {874, 778}}";
+		};
+	};
+	A66FB7A911B5BA4A00CC85F6 /* MMessage.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1503, 546}}";
+			sepNavSelRange = "{307, 0}";
+			sepNavVisRange = "{0, 1125}";
+		};
+	};
+	A66FB7AA11B5BA4A00CC85F6 /* MMessage.mm */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1496, 598}}";
+			sepNavSelRange = "{5, 0}";
+			sepNavVisRange = "{0, 1034}";
+		};
+	};
+	A66FB7AC11B5BA4A00CC85F6 /* MSkill.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1124, 702}}";
+			sepNavSelRange = "{0, 1}";
+			sepNavVisRange = "{0, 854}";
+			sepNavWindowFrame = "{{19, 0}, {1183, 774}}";
+		};
+	};
+	A66FB7AD11B5BA4A00CC85F6 /* MSkill.mm */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1124, 702}}";
+			sepNavSelRange = "{152, 23}";
+			sepNavVisRange = "{0, 906}";
+			sepNavWindowFrame = "{{19, 0}, {1183, 774}}";
+		};
+	};
+	A66FB7AE11B5BA4A00CC85F6 /* MEffect.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {775, 419}}";
+			sepNavSelRange = "{377, 0}";
+			sepNavVisRange = "{0, 660}";
+		};
+	};
+	A66FB7AF11B5BA4A00CC85F6 /* MEffect.mm */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {660, 640}}";
+			sepNavSelRange = "{91, 24}";
+			sepNavVisRange = "{0, 901}";
+			sepNavWindowFrame = "{{19, 0}, {874, 778}}";
+		};
+	};
+	A66FB7B011B5BA4A00CC85F6 /* MSkillChest.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {587, 432}}";
+			sepNavSelRange = "{166, 6}";
+			sepNavVisRange = "{0, 357}";
+		};
+	};
+	A66FB7B111B5BA4A00CC85F6 /* MSkillChest.mm */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {498, 660}}";
+			sepNavSelRange = "{380, 26}";
+			sepNavVisRange = "{101, 672}";
+		};
+	};
+	A66FB7B311B5BA4A00CC85F6 /* MButton.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1404, 642}}";
+			sepNavSelRange = "{168, 0}";
+			sepNavVisRange = "{0, 1341}";
+		};
+	};
+	A66FB7B411B5BA4A00CC85F6 /* MButton.mm */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1398, 924}}";
+			sepNavSelRange = "{46, 232}";
+			sepNavVisRange = "{0, 2949}";
+			sepNavWindowFrame = "{{19, 0}, {1261, 778}}";
+		};
+	};
+	A66FB7B611B5BA4A00CC85F6 /* MActionTile.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {590, 455}}";
+			sepNavSelRange = "{625, 0}";
+			sepNavVisRange = "{32, 642}";
+		};
+	};
+	A66FB7B711B5BA4A00CC85F6 /* MActionTile.mm */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {732, 1210}}";
+			sepNavSelRange = "{1008, 0}";
+			sepNavVisRange = "{0, 1364}";
+		};
+	};
+	A66FB7B911B5BA4A00CC85F6 /* LevelScene.h */ = {
+		uiCtxt = {
+			sepNavFolds = "{\n    c =     (\n                {\n            r = \"{461, 231}\";\n            s = 0;\n        },\n                {\n            r = \"{1319, 29}\";\n            s = 0;\n        },\n                {\n            r = \"{1389, 1058}\";\n            s = 0;\n        },\n                {\n            r = \"{2482, 85}\";\n            s = 0;\n        },\n                {\n            r = \"{2606, 62}\";\n            s = 0;\n        }\n    );\n    r = \"{0, 2675}\";\n    s = 0;\n}";
+			sepNavIntBoundsRect = "{{0, 0}, {1083, 724}}";
+			sepNavSelRange = "{791, 0}";
+			sepNavVisRange = "{221, 994}";
+			sepNavWindowFrame = "{{19, 0}, {874, 778}}";
+		};
+	};
+	A66FB7BA11B5BA4A00CC85F6 /* LevelScene.mm */ = {
+		uiCtxt = {
+			sepNavFolds = "{\n    c =     (\n                {\n            r = \"{2151, 81}\";\n            s = 0;\n        },\n                {\n            r = \"{2271, 167}\";\n            s = 0;\n        },\n                {\n            r = \"{2459, 54}\";\n            s = 0;\n        },\n                {\n            r = \"{2537, 1178}\";\n            s = 0;\n        },\n                {\n            r = \"{3734, 38}\";\n            s = 0;\n        },\n                {\n            r = \"{4004, 1271}\";\n            s = 0;\n        },\n                {\n            r = \"{5311, 202}\";\n            s = 0;\n        },\n                {\n            r = \"{5555, 1509}\";\n            s = 0;\n        },\n                {\n            r = \"{7106, 256}\";\n            s = 0;\n        },\n                {\n            r = \"{8654, 2237}\";\n            s = 0;\n        }\n    );\n    r = \"{0, 22719}\";\n    s = 0;\n}";
+			sepNavIntBoundsRect = "{{0, 0}, {1181, 7457}}";
+			sepNavSelRange = "{2152, 0}";
+			sepNavVisRange = "{3577, 962}";
+			sepNavWindowFrame = "{{19, 0}, {1261, 778}}";
+		};
+	};
+	A66FB7BB11B5BA4A00CC85F6 /* SplashScene.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {674, 617}}";
+			sepNavSelRange = "{132, 0}";
+			sepNavVisRange = "{0, 340}";
+		};
+	};
+	A66FB7BC11B5BA4A00CC85F6 /* SplashScene.mm */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1680, 1276}}";
+			sepNavSelRange = "{1753, 273}";
+			sepNavVisRange = "{1229, 2086}";
+			sepNavWindowFrame = "{{15, 0}, {799, 778}}";
+		};
+	};
+	A66FB7BF11B5BA4A00CC85F6 /* MMatch.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {583, 642}}";
+			sepNavSelRange = "{950, 0}";
+			sepNavVisRange = "{0, 991}";
+			sepNavWindowFrame = "{{19, 0}, {1183, 774}}";
+		};
+	};
+	A66FB7C011B5BA4A00CC85F6 /* MMatch.mm */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {913, 1408}}";
+			sepNavSelRange = "{1625, 0}";
+			sepNavVisRange = "{935, 823}";
+			sepNavWindowFrame = "{{19, 0}, {1183, 774}}";
+		};
+	};
+	A66FB7C111B5BA4A00CC85F6 /* MTeam.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {913, 640}}";
+			sepNavSelRange = "{83, 0}";
+			sepNavVisRange = "{0, 379}";
+			sepNavWindowFrame = "{{19, 0}, {874, 778}}";
+		};
+	};
+	A66FB7C211B5BA4A00CC85F6 /* MTeam.mm */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1124, 702}}";
+			sepNavSelRange = "{526, 0}";
+			sepNavVisRange = "{0, 531}";
+			sepNavWindowFrame = "{{19, 0}, {1183, 774}}";
+		};
+	};
+	A66FB7C311B5BA4A00CC85F6 /* MMap.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {729, 352}}";
+			sepNavSelRange = "{169, 0}";
+			sepNavVisRange = "{0, 544}";
+		};
+	};
+	A66FB7C411B5BA4A00CC85F6 /* MMap.mm */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1214, 1444}}";
+			sepNavSelRange = "{1933, 0}";
+			sepNavVisRange = "{1589, 426}";
+			sepNavWindowFrame = "{{19, 0}, {1183, 774}}";
+		};
+	};
+	A66FB81011B5BA7900CC85F6 /* Prototype.tmx */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {4638, 473}}";
+			sepNavSelRange = "{297, 92}";
+			sepNavVisRange = "{0, 2572}";
+		};
+	};
+	A66FB85C11B5BB1000CC85F6 /* Monster_99_3AppDelegate.mm:56 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = 1F3B9A2B0EF2145700286867 /* Monster_99_3AppDelegate.mm */;
+		functionName = "-applicationDidFinishLaunching:";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 56;
+		location = "Monster-99.3";
+		modificationTime = 317188303.657009;
+		originalNumberOfMultipleMatches = 1;
+		state = 2;
+	};
+	A66FB86811B5BB4100CC85F6 /* MMap.mm:19 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = A66FB7C411B5BA4A00CC85F6 /* MMap.mm */;
+		functionName = "-init";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 19;
+		location = "Monster-99.3";
+		modificationTime = 317188303.657518;
+		originalNumberOfMultipleMatches = 1;
+		state = 2;
+	};
+	A66FB87E11B5BB5E00CC85F6 /* LevelScene.mm:27 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = A66FB7BA11B5BA4A00CC85F6 /* LevelScene.mm */;
+		functionName = "-init";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 27;
+		location = "Monster-99.3";
+		modificationTime = 317188303.657924;
+		originalNumberOfMultipleMatches = 1;
+		state = 2;
+	};
+	A66FB8BC11B5BC5A00CC85F6 /* SplashScene.mm:75 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = A66FB7BC11B5BA4A00CC85F6 /* SplashScene.mm */;
+		functionName = "-init";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 75;
+		location = "Monster-99.3";
+		modificationTime = 317188303.658225;
+		originalNumberOfMultipleMatches = 1;
+		state = 2;
+	};
+	A66FB8C611B5BC6B00CC85F6 /* SplashScene.mm:35 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = A66FB7BC11B5BA4A00CC85F6 /* SplashScene.mm */;
+		functionName = "-init";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 35;
+		location = "Monster-99.3";
+		modificationTime = 317188303.658539;
+		originalNumberOfMultipleMatches = 1;
+		state = 2;
+	};
+	A66FB8CF11B5BC9900CC85F6 /* SplashScene.mm:41 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = A66FB7BC11B5BA4A00CC85F6 /* SplashScene.mm */;
+		functionName = "-init";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 41;
+		location = "Monster-99.3";
+		modificationTime = 317188303.658831;
+		originalNumberOfMultipleMatches = 1;
+		state = 2;
+	};
+	A66FB8D611B5BCAC00CC85F6 /* SplashScene.mm:48 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = A66FB7BC11B5BA4A00CC85F6 /* SplashScene.mm */;
+		functionName = "-init";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 48;
+		location = "Monster-99.3";
+		modificationTime = 317188303.659102;
+		originalNumberOfMultipleMatches = 1;
+		state = 2;
+	};
+	A66FB8FD11B5D5F700CC85F6 /* MUnit.mm:183 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = A66FB79E11B5BA4A00CC85F6 /* MUnit.mm */;
+		functionName = "-performMovement:";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 183;
+		location = "Monster-99.3";
+		modificationTime = 317188303.659336;
+		originalNumberOfMultipleMatches = 1;
+		state = 2;
+	};
+	A66FB91811B5D9FB00CC85F6 /* MUnit.mm:183 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = A66FB79E11B5BA4A00CC85F6 /* MUnit.mm */;
+		functionName = "-performMovement:";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 183;
+		location = "Monster-99.3";
+		modificationTime = 317188303.659566;
+		originalNumberOfMultipleMatches = 1;
+		state = 2;
+	};
+	A66FBA5B11B61C5800CC85F6 /* LevelScene.mm:164 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = A66FB7BA11B5BA4A00CC85F6 /* LevelScene.mm */;
+		functionName = "-init:currentMatch:currentUnitLayer:currentTerrainLayer:";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 164;
+		location = "Monster-99.3";
+		modificationTime = 317188303.659792;
+		originalNumberOfMultipleMatches = 1;
+		state = 2;
+	};
+	A6745D9011C720B9006C34BE /* MUnit.mm:39 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = A66FB79E11B5BA4A00CC85F6 /* MUnit.mm */;
+		functionName = "-getActions:";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 39;
+		location = "Monster-99.3";
+		modificationTime = 317188303.719202;
+		originalNumberOfMultipleMatches = 1;
+		state = 2;
+	};
+	A6745DCF11C72D0B006C34BE /* MUnit.mm:112 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = A66FB79E11B5BA4A00CC85F6 /* MUnit.mm */;
+		functionName = "-getActions:";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 112;
+		location = "Monster-99.3";
+		modificationTime = 317188303.719531;
+		originalNumberOfMultipleMatches = 1;
+		state = 2;
+	};
+	A6745DF611C73087006C34BE /* MUnit.mm:96 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = A66FB79E11B5BA4A00CC85F6 /* MUnit.mm */;
+		functionName = "-getActions:";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 96;
+		location = "Monster-99.3";
+		modificationTime = 317188303.719844;
+		originalNumberOfMultipleMatches = 1;
+		state = 2;
+	};
+	A6745DF811C73088006C34BE /* MUnit.mm:95 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = A66FB79E11B5BA4A00CC85F6 /* MUnit.mm */;
+		functionName = "-getActions:";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 95;
+		location = "Monster-99.3";
+		modificationTime = 317188303.72015;
+		originalNumberOfMultipleMatches = 1;
+		state = 2;
+	};
+	A6745E0311C7322E006C34BE /* MAStarSearch.mm:250 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = A66FB7A511B5BA4A00CC85F6 /* MAStarSearch.mm */;
+		functionName = "-getParentMoveFromNode::";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 250;
+		location = "Monster-99.3";
+		modificationTime = 317188303.720484;
+		originalNumberOfMultipleMatches = 1;
+		state = 2;
+	};
+	A67D719F11CEF58A005EBBAD /* MUnit.mm:404 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = A66FB79E11B5BA4A00CC85F6 /* MUnit.mm */;
+		functionName = "-update";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 404;
+		location = "Monster-99.3";
+		modificationTime = 317188303.726562;
+		originalNumberOfMultipleMatches = 1;
+		state = 2;
+	};
+	A67D71AE11CEF5B8005EBBAD /* MUnit.mm:404 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = A66FB79E11B5BA4A00CC85F6 /* MUnit.mm */;
+		functionName = "-update";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 404;
+		location = "Monster-99.3";
+		modificationTime = 317188303.7269;
+		originalNumberOfMultipleMatches = 1;
+		state = 2;
+	};
+	A67D71CA11CEF99D005EBBAD /* MEntityManager.mm:85 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = A66FB7A811B5BA4A00CC85F6 /* MEntityManager.mm */;
+		functionName = "+update";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 85;
+		location = "Monster-99.3";
+		modificationTime = 317188303.727231;
+		originalNumberOfMultipleMatches = 1;
+		state = 2;
+	};
+	A67D720611CF05A3005EBBAD /* LevelScene.mm:242 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = A66FB7BA11B5BA4A00CC85F6 /* LevelScene.mm */;
+		functionName = "-btnNextTurn_Click:";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 242;
+		location = "Monster-99.3";
+		modificationTime = 317188303.727572;
+		originalNumberOfMultipleMatches = 1;
+		state = 2;
+	};
+	A67DCE4A11C7B7BF00A261FE /* MUnit.mm:163 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = A66FB79E11B5BA4A00CC85F6 /* MUnit.mm */;
+		functionName = "-getActions:";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 163;
+		location = "Monster-99.3";
+		modificationTime = 317188303.721179;
+		originalNumberOfMultipleMatches = 1;
+		state = 2;
+	};
+	A67DCE5711C7B81700A261FE /* MUnit.mm:149 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = A66FB79E11B5BA4A00CC85F6 /* MUnit.mm */;
+		functionName = "-getActions:";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 149;
+		location = "Monster-99.3";
+		modificationTime = 317188303.721513;
+		originalNumberOfMultipleMatches = 1;
+		state = 2;
+	};
+	A67DCE5B11C7B81F00A261FE /* MUnit.mm:146 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = A66FB79E11B5BA4A00CC85F6 /* MUnit.mm */;
+		functionName = "-getActions:";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 146;
+		location = "Monster-99.3";
+		modificationTime = 317188303.721847;
+		originalNumberOfMultipleMatches = 1;
+		state = 2;
+	};
+	A6AF8AA111D682C30031446F /* Tests.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1124, 770}}";
+			sepNavSelRange = "{1310, 19}";
+			sepNavVisRange = "{136, 1479}";
+			sepNavWindowFrame = "{{19, 0}, {1183, 774}}";
+		};
+	};
+	A6AF8AA211D682C30031446F /* Test.mm */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {970, 2002}}";
+			sepNavSelRange = "{639, 10}";
+			sepNavVisRange = "{320, 360}";
+			sepNavWindowFrame = "{{620, 0}, {660, 778}}";
+		};
+	};
+	A6AF8ADA11D68A9F0031446F /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = A66FB7C211B5BA4A00CC85F6 /* MTeam.mm */;
+		name = "MTeam.mm: 31";
+		rLen = 0;
+		rLoc = 526;
+		rType = 0;
+		vrLen = 531;
+		vrLoc = 0;
+	};
+	A6AF8C1A11D6CBDD0031446F /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = A6AF8AA111D682C30031446F /* Tests.h */;
+		name = "Tests.h: 50";
+		rLen = 246;
+		rLoc = 1254;
+		rType = 0;
+		vrLen = 782;
+		vrLoc = 833;
+	};
+	A6AF8C7711D6E1890031446F /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = A66FB7AF11B5BA4A00CC85F6 /* MEffect.mm */;
+		name = "MEffect.mm: 9";
+		rLen = 24;
+		rLoc = 91;
+		rType = 0;
+		vrLen = 901;
+		vrLoc = 0;
+	};
+	A6AF8C7811D6E1890031446F /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = A66FB7B111B5BA4A00CC85F6 /* MSkillChest.mm */;
+		name = "MSkillChest.mm: 22";
+		rLen = 26;
+		rLoc = 380;
+		rType = 0;
+		vrLen = 672;
+		vrLoc = 101;
+	};
+	A6AF8C7911D6E1890031446F /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = A66FB7A311B5BA4A00CC85F6 /* MPersona.mm */;
+		name = "MPersona.mm: 64";
+		rLen = 0;
+		rLoc = 2688;
+		rType = 0;
+		vrLen = 3272;
+		vrLoc = 429;
+	};
+	A6AF8C8011D6EA0E0031446F /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = A6AF8AA211D682C30031446F /* Test.mm */;
+		name = "Test.mm: 26";
+		rLen = 0;
+		rLoc = 656;
+		rType = 0;
+		vrLen = 1856;
+		vrLoc = 0;
+	};
+	A6B1153B11D95D0B0054F3BB /* LevelScene.mm:128 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = A66FB7BA11B5BA4A00CC85F6 /* LevelScene.mm */;
+		functionName = "-continueMatch";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 128;
+		location = "Monster-99.3";
+		modificationTime = 317188303.733261;
+		originalNumberOfMultipleMatches = 1;
+		state = 2;
+	};
+	A6B1154311D95D2E0054F3BB /* LevelScene.mm:134 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = A66FB7BA11B5BA4A00CC85F6 /* LevelScene.mm */;
+		functionName = "-continueMatch";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 134;
+		location = "Monster-99.3";
+		modificationTime = 317188303.733634;
+		originalNumberOfMultipleMatches = 1;
+		state = 2;
+	};
+	A6B1155211D95E870054F3BB /* MUnit.mm:291 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = A66FB79E11B5BA4A00CC85F6 /* MUnit.mm */;
+		functionName = "-performMovement:";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 291;
+		location = "Monster-99.3";
+		modificationTime = 317188303.733998;
+		originalNumberOfMultipleMatches = 1;
+		state = 2;
+	};
+	A6B1156511D95FE80054F3BB /* MUnit.mm:292 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = A66FB79E11B5BA4A00CC85F6 /* MUnit.mm */;
+		functionName = "-performMovement:";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 292;
+		location = "Monster-99.3";
+		modificationTime = 317188303.73436;
+		originalNumberOfMultipleMatches = 1;
+		state = 2;
+	};
+	A6B1157B11D962440054F3BB /* LevelScene.mm:124 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = A66FB7BA11B5BA4A00CC85F6 /* LevelScene.mm */;
+		functionName = "-continueMatch";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 124;
+		location = "Monster-99.3";
+		modificationTime = 317188303.734728;
+		originalNumberOfMultipleMatches = 1;
+		state = 2;
+	};
+	A6B1159A11D964750054F3BB /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = A629AD6111B758FE00F951AE /* MProjectileManager.h */;
+		name = "MProjectileManager.h: 14";
+		rLen = 0;
+		rLoc = 283;
+		rType = 0;
+		vrLen = 436;
+		vrLoc = 0;
+	};
+	A6B1159B11D964750054F3BB /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = A66FB7A711B5BA4A00CC85F6 /* MEntityManager.h */;
+		name = "MEntityManager.h: 23";
+		rLen = 0;
+		rLoc = 429;
+		rType = 0;
+		vrLen = 1121;
+		vrLoc = 0;
+	};
+	A6B1159C11D964750054F3BB /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = A66FB7A811B5BA4A00CC85F6 /* MEntityManager.mm */;
+		name = "MEntityManager.mm: 16";
+		rLen = 28;
+		rLoc = 401;
+		rType = 0;
+		vrLen = 4908;
+		vrLoc = 0;
+	};
+	A6B115A811D964F20054F3BB /* MProjectile.m:18 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = A6E5C3D611BC55F600914CE3 /* MProjectile.m */;
+		functionName = "-kill";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 18;
+		location = "Monster-99.3";
+		modificationTime = 317188303.735092;
+		originalNumberOfMultipleMatches = 1;
+		state = 2;
+	};
+	A6B115AD11D964F80054F3BB /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = A66FB7B711B5BA4A00CC85F6 /* MActionTile.mm */;
+		name = "MActionTile.mm: 38";
+		rLen = 0;
+		rLoc = 1008;
+		rType = 0;
+		vrLen = 1364;
+		vrLoc = 0;
+	};
+	A6B115AE11D964F80054F3BB /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = A66FB7B311B5BA4A00CC85F6 /* MButton.h */;
+		name = "MButton.h: 8";
+		rLen = 0;
+		rLoc = 168;
+		rType = 0;
+		vrLen = 1341;
+		vrLoc = 0;
+	};
+	A6B115AF11D964F80054F3BB /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 50F4143710692D7D002A0D5E /* GLES-Render.h */;
+		name = "GLES-Render.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 1945;
+		vrLoc = 0;
+	};
+	A6B115B011D964F80054F3BB /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 50F4143810692D7D002A0D5E /* GLES-Render.mm */;
+		name = "GLES-Render.mm: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 1784;
+		vrLoc = 0;
+	};
+	A6B115B511D9654F0054F3BB /* MProjectileManager.mm:54 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = A629AD6211B758FE00F951AE /* MProjectileManager.mm */;
+		functionName = "+getNextProjectileName";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 54;
+		location = "Monster-99.3";
+		modificationTime = 317188303.735451;
+		originalNumberOfMultipleMatches = 1;
+		state = 2;
+	};
+	A6B115C511D966730054F3BB /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = A66FB79E11B5BA4A00CC85F6 /* MUnit.mm */;
+		name = "MUnit.mm: 382";
+		rLen = 0;
+		rLoc = 11935;
+		rType = 0;
+		vrLen = 2494;
+		vrLoc = 10927;
+	};
+	A6B115C611D966730054F3BB /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = A629A94911B70E0C00F951AE /* MContactListener.mm */;
+		name = "MContactListener.mm: 69";
+		rLen = 0;
+		rLoc = 1375;
+		rType = 0;
+		vrLen = 1492;
+		vrLoc = 880;
+	};
+	A6B115CA11D9668E0054F3BB /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = A629AD6211B758FE00F951AE /* MProjectileManager.mm */;
+		name = "MProjectileManager.mm: 63";
+		rLen = 0;
+		rLoc = 1424;
+		rType = 0;
+		vrLen = 1498;
+		vrLoc = 427;
+	};
+	A6B115DD11D96BB70054F3BB /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = A6E5C3D611BC55F600914CE3 /* MProjectile.m */;
+		name = "MProjectile.m: 22";
+		rLen = 0;
+		rLoc = 310;
+		rType = 0;
+		vrLen = 1132;
+		vrLoc = 0;
+	};
+	A6B115DE11D96BB70054F3BB /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = A66FB7BF11B5BA4A00CC85F6 /* MMatch.h */;
+		name = "MMatch.h: 45";
+		rLen = 0;
+		rLoc = 950;
+		rType = 0;
+		vrLen = 991;
+		vrLoc = 0;
+	};
+	A6B115E011D96BB70054F3BB /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = A66FB7C011B5BA4A00CC85F6 /* MMatch.mm */;
+		name = "MMatch.mm: 89";
+		rLen = 0;
+		rLoc = 1625;
+		rType = 0;
+		vrLen = 823;
+		vrLoc = 935;
+	};
+	A6B115E111D96BB70054F3BB /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = A66FB7C111B5BA4A00CC85F6 /* MTeam.h */;
+		name = "MTeam.h: 8";
+		rLen = 0;
+		rLoc = 83;
+		rType = 0;
+		vrLen = 379;
+		vrLoc = 0;
+	};
+	A6B4BB4311D99AEA00C61E6A /* Hud-Healthbar.png */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = image.png;
+		name = "Hud-Healthbar.png";
+		path = "/Programming/Monster/Resources/HUD-Healthbar.png";
+		sourceTree = "<absolute>";
+	};
+	A6B4BB6011D99BB600C61E6A /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = A6E1AEC411D6462F00113F52 /* MonsterLogicTest-Info.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+		);
+		name = "/Programming/Monster/MonsterLogicTest-Info.plist";
+		rLen = 0;
+		rLoc = 9223372036854775808;
+	};
+	A6B4BBC411D99CD700C61E6A /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = 50F4144710692EE7002A0D5E /* Info.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+		);
+		name = /Programming/Monster/Resources/Info.plist;
+		rLen = 0;
+		rLoc = 9223372036854775808;
+	};
+	A6B4BBC711D99CD700C61E6A /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = A6B4BB3D11D99AB500C61E6A /* HUD-Healthbar-Human.png */;
+	};
+	A6B4BBC811D99CD700C61E6A /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = A6B4BB4311D99AEA00C61E6A /* Hud-Healthbar.png */;
+	};
+	A6B4BBD311D99DB800C61E6A /* HUD-Healthbar.png */ = {
+		uiCtxt = {
+			sepNavWindowFrame = "{{19, 0}, {660, 778}}";
+		};
+	};
+	A6C6B72911C332EE00F9540E /* MIManager.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {437, 613}}";
+			sepNavSelRange = "{77, 0}";
+			sepNavVisRange = "{0, 119}";
+		};
+	};
+	A6C6B7A911C33A6400F9540E /* MSettings.mm:16 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = A66FB79311B5BA4A00CC85F6 /* MSettings.mm */;
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 16;
+		modificationTime = 317188303.709474;
+		originalNumberOfMultipleMatches = 0;
+		state = 2;
+	};
+	A6C6B89211C3C60400F9540E /* LevelScene.mm:264 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = A66FB7BA11B5BA4A00CC85F6 /* LevelScene.mm */;
+		functionName = "-update";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 264;
+		location = "Monster-99.3";
+		modificationTime = 317188303.710075;
+		originalNumberOfMultipleMatches = 1;
+		state = 2;
+	};
+	A6C6B8B411C3CA8600F9540E /* MProjectile.m:19 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = A6E5C3D611BC55F600914CE3 /* MProjectile.m */;
+		functionName = "-kill";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 19;
+		location = "Monster-99.3";
+		modificationTime = 317188303.710748;
+		originalNumberOfMultipleMatches = 1;
+		state = 2;
+	};
+	A6C6B92511C3CFE800F9540E /* MPersona.mm:113 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = A66FB7A311B5BA4A00CC85F6 /* MPersona.mm */;
+		functionName = "-init::::::";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 113;
+		location = "Monster-99.3";
+		modificationTime = 317188303.711038;
+		originalNumberOfMultipleMatches = 1;
+		state = 2;
+	};
+	A6C6B95511C3D18100F9540E /* MPersona.mm:113 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = A66FB7A311B5BA4A00CC85F6 /* MPersona.mm */;
+		functionName = "-init::::::";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 113;
+		location = "Monster-99.3";
+		modificationTime = 317188303.711318;
+		originalNumberOfMultipleMatches = 1;
+		state = 2;
+	};
+	A6C6BC3B11C3E0FD00F9540E /* LevelScene.mm:696 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = A66FB7BA11B5BA4A00CC85F6 /* LevelScene.mm */;
+		functionName = "-draw";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 696;
+		location = "Monster-99.3";
+		modificationTime = 317188303.711594;
+		originalNumberOfMultipleMatches = 1;
+		state = 2;
+	};
+	A6C6BC8F11C3E57100F9540E /* MEntityManager.mm:259 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = A66FB7A811B5BA4A00CC85F6 /* MEntityManager.mm */;
+		functionName = "+remove::Cleanup:";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 259;
+		location = "Monster-99.3";
+		modificationTime = 317188303.711901;
+		originalNumberOfMultipleMatches = 1;
+		state = 2;
+	};
+	A6C6BCC911C3EDBE00F9540E /* MUnit.mm:252 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = A66FB79E11B5BA4A00CC85F6 /* MUnit.mm */;
+		functionName = "-fireProjectile:";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 252;
+		location = "Monster-99.3";
+		modificationTime = 317188303.712208;
+		originalNumberOfMultipleMatches = 1;
+		state = 2;
+	};
+	A6C6BD4311C4070E00F9540E /* MPersona.mm:74 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = A66FB7A311B5BA4A00CC85F6 /* MPersona.mm */;
+		functionName = "+initialize";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 74;
+		location = "Monster-99.3";
+		modificationTime = 317188303.712498;
+		originalNumberOfMultipleMatches = 1;
+		state = 2;
+	};
+	A6C6BD6A11C407E500F9540E /* MPersona.mm:73 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = A66FB7A311B5BA4A00CC85F6 /* MPersona.mm */;
+		functionName = "+initialize";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 73;
+		location = "Monster-99.3";
+		modificationTime = 317188303.712788;
+		originalNumberOfMultipleMatches = 1;
+		state = 2;
+	};
+	A6E0D2D611BAC46200E17690 /* MUnit.mm:250 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = A66FB79E11B5BA4A00CC85F6 /* MUnit.mm */;
+		functionName = "-fireProjectile";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 250;
+		location = "Monster-99.3";
+		modificationTime = 317188303.675859;
+		originalNumberOfMultipleMatches = 1;
+		state = 2;
+	};
+	A6E0D2EE11BAC5B400E17690 /* MEntity.mm:131 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = A66FB79611B5BA4A00CC85F6 /* MEntity.mm */;
+		functionName = "-sendMessage:";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 131;
+		location = "Monster-99.3";
+		modificationTime = 317188303.676208;
+		originalNumberOfMultipleMatches = 1;
+		state = 2;
+	};
+	A6E0D2F011BAC5B500E17690 /* MEntity.mm:131 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = A66FB79611B5BA4A00CC85F6 /* MEntity.mm */;
+		functionName = "-sendMessage:";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 131;
+		location = "Monster-99.3";
+		modificationTime = 317188303.676589;
+		originalNumberOfMultipleMatches = 1;
+		state = 2;
+	};
+	A6E1AEC211D6462F00113F52 /* MonsterLogicTests */ = {
+		activeExec = 0;
+	};
+	A6E1AEC411D6462F00113F52 /* MonsterLogicTest-Info.plist */ = {
+		uiCtxt = {
+			sepNavWindowFrame = "{{19, 0}, {660, 778}}";
+		};
+	};
+	A6E1AEDF11D647C300113F52 /* LogicTests.mm */ = {
+		isa = PBXFileReference;
+		fileEncoding = 4;
+		lastKnownFileType = sourcecode.cpp.objcpp;
+		name = LogicTests.mm;
+		path = /Programming/Monster/LogicTests.mm;
+		sourceTree = "<absolute>";
+	};
+	A6E1AFEE11D64BB900113F52 /* LogicTests.mm:35 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = A6E1AEDF11D647C300113F52 /* LogicTests.mm */;
+		functionName = "-testMath";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 35;
+		modificationTime = 317188472.93108;
+		originalNumberOfMultipleMatches = 1;
+		state = 1;
+	};
+	A6E1AFF911D64D5500113F52 /* LogicTests.mm:31 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = A6E1AEDF11D647C300113F52 /* LogicTests.mm */;
+		functionName = "-testTest";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 31;
+		modificationTime = 317188472.931695;
+		originalNumberOfMultipleMatches = 1;
+		state = 1;
+	};
+	A6E1B04611D6565300113F52 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = A66FB7C411B5BA4A00CC85F6 /* MMap.mm */;
+		name = "MMap.mm: 93";
+		rLen = 0;
+		rLoc = 1729;
+		rType = 0;
+		vrLen = 607;
+		vrLoc = 1394;
+	};
+	A6E1B05611D656EE00113F52 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = A66FB7C311B5BA4A00CC85F6 /* MMap.h */;
+		name = "MMap.h: 15";
+		rLen = 0;
+		rLoc = 169;
+		rType = 0;
+		vrLen = 544;
+		vrLoc = 0;
+	};
+	A6E1B06211D6573C00113F52 /* MEntity.mm:106 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = A66FB79611B5BA4A00CC85F6 /* MEntity.mm */;
+		functionName = "-performDamage:withForce:";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 106;
+		location = "Monster-99.3";
+		modificationTime = 317188303.732143;
+		originalNumberOfMultipleMatches = 1;
+		state = 2;
+	};
+	A6E1B06A11D6573F00113F52 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = A66FB79511B5BA4A00CC85F6 /* MEntity.h */;
+		name = "MEntity.h: 37";
+		rLen = 0;
+		rLoc = 575;
+		rType = 0;
+		vrLen = 717;
+		vrLoc = 317;
+	};
+	A6E1B07011D6578100113F52 /* LevelScene.mm:265 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = A66FB7BA11B5BA4A00CC85F6 /* LevelScene.mm */;
+		functionName = "-update";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 265;
+		location = "Monster-99.3";
+		modificationTime = 317188303.732494;
+		originalNumberOfMultipleMatches = 1;
+		state = 2;
+	};
+	A6E1B08511D6592C00113F52 /* LevelScene.mm:267 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = A66FB7BA11B5BA4A00CC85F6 /* LevelScene.mm */;
+		functionName = "-update";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 267;
+		location = "Monster-99.3";
+		modificationTime = 317188303.732884;
+		originalNumberOfMultipleMatches = 1;
+		state = 2;
+	};
+	A6E1B0B311D65B2400113F52 /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = A66FB81511B5BA7900CC85F6 /* MenuButtonPressed.png */;
+	};
+	A6E1B0B411D65B2400113F52 /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = A66FB81611B5BA7900CC85F6 /* MenuButton.png */;
+	};
+	A6E1B0B511D65B2400113F52 /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = A66FB81711B5BA7900CC85F6 /* NextTurnButton.png */;
+	};
+	A6E1B0B611D65B2400113F52 /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = A66FB81811B5BA7900CC85F6 /* NextTurnButtonPressed.png */;
+	};
+	A6E1B0BA11D65B2400113F52 /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = A66FB7E311B5BA7900CC85F6 /* button_pressed.png */;
+	};
+	A6E1B0CA11D6600500113F52 /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = A66FB7E411B5BA7900CC85F6 /* button.png */;
+	};
+	A6E1B0CB11D6600500113F52 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = A66FB81011B5BA7900CC85F6 /* Prototype.tmx */;
+		name = "Prototype.tmx: 6";
+		rLen = 92;
+		rLoc = 297;
+		rType = 0;
+		vrLen = 2572;
+		vrLoc = 0;
+	};
+	A6E1B0CC11D6600500113F52 /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = A66FB81211B5BA7900CC85F6 /* Tiles.png */;
+	};
+	A6E1B0D211D6657500113F52 /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = A66FB81111B5BA7900CC85F6 /* Decals.png */;
+	};
+	A6E1B0D311D6657500113F52 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = A66FB79611B5BA4A00CC85F6 /* MEntity.mm */;
+		name = "MEntity.mm: 23";
+		rLen = 0;
+		rLoc = 474;
+		rType = 0;
+		vrLen = 1013;
+		vrLoc = 0;
+	};
+	A6E1B0DD11D6659200113F52 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = A66FB7BB11B5BA4A00CC85F6 /* SplashScene.h */;
+		name = "SplashScene.h: 8";
+		rLen = 0;
+		rLoc = 132;
+		rType = 0;
+		vrLen = 340;
+		vrLoc = 0;
+	};
+	A6E5C12B11BBEBB000914CE3 /* LevelScene.mm:83 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = A66FB7BA11B5BA4A00CC85F6 /* LevelScene.mm */;
+		functionName = "-update:";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 83;
+		location = "Monster-99.3";
+		modificationTime = 317188303.676914;
+		originalNumberOfMultipleMatches = 1;
+		state = 2;
+	};
+	A6E5C12D11BBEBD900914CE3 /* MEntityManager.mm:66 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = A66FB7A811B5BA4A00CC85F6 /* MEntityManager.mm */;
+		functionName = "+update";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 66;
+		location = "Monster-99.3";
+		modificationTime = 317188303.677229;
+		originalNumberOfMultipleMatches = 1;
+		state = 2;
+	};
+	A6E5C15311BBEE8100914CE3 /* MEntityManager.mm:101 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = A66FB7A811B5BA4A00CC85F6 /* MEntityManager.mm */;
+		functionName = "+update";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 101;
+		location = "Monster-99.3";
+		modificationTime = 317188303.677532;
+		originalNumberOfMultipleMatches = 1;
+		state = 2;
+	};
+	A6E5C15B11BBEF3000914CE3 /* MEntityManager.mm:116 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = A66FB7A811B5BA4A00CC85F6 /* MEntityManager.mm */;
+		functionName = "+update";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 116;
+		location = "Monster-99.3";
+		modificationTime = 317188303.677819;
+		originalNumberOfMultipleMatches = 1;
+		state = 2;
+	};
+	A6E5C16311BBF49900914CE3 /* MEntityManager.mm:144 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = A66FB7A811B5BA4A00CC85F6 /* MEntityManager.mm */;
+		functionName = "+update";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 144;
+		location = "Monster-99.3";
+		modificationTime = 317188303.678214;
+		originalNumberOfMultipleMatches = 1;
+		state = 2;
+	};
+	A6E5C16B11BBF78E00914CE3 /* MEntityManager.mm:202 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = A66FB7A811B5BA4A00CC85F6 /* MEntityManager.mm */;
+		functionName = "+add::";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 202;
+		location = "Monster-99.3";
+		modificationTime = 317188303.678527;
+		originalNumberOfMultipleMatches = 1;
+		state = 2;
+	};
+	A6E5C16F11BBF87C00914CE3 /* MEntityManager.mm:203 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = A66FB7A811B5BA4A00CC85F6 /* MEntityManager.mm */;
+		functionName = "+add::";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 203;
+		location = "Monster-99.3";
+		modificationTime = 317188303.678864;
+		originalNumberOfMultipleMatches = 1;
+		state = 2;
+	};
+	A6E5C17111BBF88D00914CE3 /* MEntityManager.mm:297 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = A66FB7A811B5BA4A00CC85F6 /* MEntityManager.mm */;
+		functionName = "+queueMessage:";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 297;
+		location = "Monster-99.3";
+		modificationTime = 317188303.67923;
+		originalNumberOfMultipleMatches = 1;
+		state = 2;
+	};
+	A6E5C17311BBF8A500914CE3 /* MEntityManager.mm:309 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = A66FB7A811B5BA4A00CC85F6 /* MEntityManager.mm */;
+		functionName = "+sendMessage:";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 309;
+		location = "Monster-99.3";
+		modificationTime = 317188303.679531;
+		originalNumberOfMultipleMatches = 1;
+		state = 2;
+	};
+	A6E5C1AA11BC06A900914CE3 /* MContactListener.mm:95 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = A629A94911B70E0C00F951AE /* MContactListener.mm */;
+		functionName = "PreSolve(b2Contact* contact, const b2Manifold* oldManifold)";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 95;
+		location = "Monster-99.3";
+		modificationTime = 317188303.679918;
+		originalNumberOfMultipleMatches = 1;
+		state = 2;
+	};
+	A6E5C1AC11BC06AA00914CE3 /* MContactListener.mm:95 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = A629A94911B70E0C00F951AE /* MContactListener.mm */;
+		functionName = "PreSolve(b2Contact* contact, const b2Manifold* oldManifold)";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 95;
+		location = "Monster-99.3";
+		modificationTime = 317188303.680357;
+		originalNumberOfMultipleMatches = 1;
+		state = 2;
+	};
+	A6E5C1D911BC1B5D00914CE3 /* LevelScene.mm:81 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = A66FB7BA11B5BA4A00CC85F6 /* LevelScene.mm */;
+		functionName = "-update:";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 81;
+		location = "Monster-99.3";
+		modificationTime = 317188303.680685;
+		originalNumberOfMultipleMatches = 1;
+		state = 2;
+	};
+	A6E5C20D11BC270200914CE3 /* MEntityManager.mm:154 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = A66FB7A811B5BA4A00CC85F6 /* MEntityManager.mm */;
+		functionName = "+update";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 154;
+		location = "Monster-99.3";
+		modificationTime = 317188303.681048;
+		originalNumberOfMultipleMatches = 1;
+		state = 2;
+	};
+	A6E5C21111BC271600914CE3 /* MEntityManager.mm:164 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = A66FB7A811B5BA4A00CC85F6 /* MEntityManager.mm */;
+		functionName = "+update";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 164;
+		location = "Monster-99.3";
+		modificationTime = 317188303.681362;
+		originalNumberOfMultipleMatches = 1;
+		state = 2;
+	};
+	A6E5C21311BC271700914CE3 /* MEntityManager.mm:166 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = A66FB7A811B5BA4A00CC85F6 /* MEntityManager.mm */;
+		functionName = "+update";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 166;
+		location = "Monster-99.3";
+		modificationTime = 317188303.68167;
+		originalNumberOfMultipleMatches = 1;
+		state = 2;
+	};
+	A6E5C29C11BC324700914CE3 /* MEntityManager.mm:190 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = A66FB7A811B5BA4A00CC85F6 /* MEntityManager.mm */;
+		functionName = "+add::";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 190;
+		location = "Monster-99.3";
+		modificationTime = 317188303.681965;
+		originalNumberOfMultipleMatches = 1;
+		state = 2;
+	};
+	A6E5C2B211BC32DA00914CE3 /* MEntityManager.mm:190 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = A66FB7A811B5BA4A00CC85F6 /* MEntityManager.mm */;
+		functionName = "+add::";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 190;
+		location = "Monster-99.3";
+		modificationTime = 317188303.682253;
+		originalNumberOfMultipleMatches = 1;
+		state = 2;
+	};
+	A6E5C2CA11BC336000914CE3 /* MEntityManager.mm:201 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = A66FB7A811B5BA4A00CC85F6 /* MEntityManager.mm */;
+		functionName = "+add::";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 201;
+		location = "Monster-99.3";
+		modificationTime = 317188303.682566;
+		originalNumberOfMultipleMatches = 1;
+		state = 2;
+	};
+	A6E5C2D211BC339900914CE3 /* LevelScene.mm:682 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = A66FB7BA11B5BA4A00CC85F6 /* LevelScene.mm */;
+		functionName = "-init";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 682;
+		location = "Monster-99.3";
+		modificationTime = 317188303.682868;
+		originalNumberOfMultipleMatches = 1;
+		state = 2;
+	};
+	A6E5C2E511BC340C00914CE3 /* LevelScene.mm:80 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = A66FB7BA11B5BA4A00CC85F6 /* LevelScene.mm */;
+		functionName = "-update:";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 80;
+		location = "Monster-99.3";
+		modificationTime = 317188303.683407;
+		originalNumberOfMultipleMatches = 1;
+		state = 2;
+	};
+	A6E5C2F811BC355D00914CE3 /* MEntityManager.mm:191 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = A66FB7A811B5BA4A00CC85F6 /* MEntityManager.mm */;
+		functionName = "+add::";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 191;
+		location = "Monster-99.3";
+		modificationTime = 317188303.683741;
+		originalNumberOfMultipleMatches = 1;
+		state = 2;
+	};
+	A6E5C34211BC39C300914CE3 /* LevelScene.mm:358 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = A66FB7BA11B5BA4A00CC85F6 /* LevelScene.mm */;
+		functionName = "-bindMoveTiles";
+		hitCount = 1;
+		ignoreCount = 0;
+		lineNumber = 358;
+		location = "Monster-99.3";
+		modificationTime = 317188335.876261;
+		originalNumberOfMultipleMatches = 1;
+		state = 2;
+	};
+	A6E5C34A11BC3A3800914CE3 /* MUnit.mm:31 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = A66FB79E11B5BA4A00CC85F6 /* MUnit.mm */;
+		functionName = "-getActions:";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 31;
+		location = "Monster-99.3";
+		modificationTime = 317188303.684394;
+		originalNumberOfMultipleMatches = 1;
+		state = 2;
+	};
+	A6E5C35511BC3B3500914CE3 /* MEntityManager.mm:346 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = A66FB7A811B5BA4A00CC85F6 /* MEntityManager.mm */;
+		functionName = "+unitTeamAt:";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 346;
+		location = "Monster-99.3";
+		modificationTime = 317188303.684677;
+		originalNumberOfMultipleMatches = 1;
+		state = 2;
+	};
+	A6E5C38511BC4F4300914CE3 /* MEntityManager.mm:248 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = A66FB7A811B5BA4A00CC85F6 /* MEntityManager.mm */;
+		functionName = "+remove::Cleanup:";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 248;
+		location = "Monster-99.3";
+		modificationTime = 317188303.686901;
+		originalNumberOfMultipleMatches = 1;
+		state = 2;
+	};
+	A6E5C39A11BC50B400914CE3 /* LevelScene.mm:111 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = A66FB7BA11B5BA4A00CC85F6 /* LevelScene.mm */;
+		functionName = "-continueMatch";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 111;
+		location = "Monster-99.3";
+		modificationTime = 317188303.687358;
+		originalNumberOfMultipleMatches = 1;
+		state = 2;
+	};
+	A6E5C3D511BC55F600914CE3 /* MProjectile.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1216, 433}}";
+			sepNavSelRange = "{669, 0}";
+			sepNavVisRange = "{0, 674}";
+		};
+	};
+	A6E5C3D611BC55F600914CE3 /* MProjectile.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1038, 642}}";
+			sepNavSelRange = "{310, 0}";
+			sepNavVisRange = "{0, 1132}";
+		};
+	};
+	A6E5C3D811BC565E00914CE3 /* MObject.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {738, 550}}";
+			sepNavSelRange = "{204, 0}";
+			sepNavVisRange = "{0, 599}";
+			sepNavWindowFrame = "{{19, 0}, {799, 778}}";
+		};
+	};
+	A6E5C3D911BC565E00914CE3 /* MObject.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {738, 624}}";
+			sepNavSelRange = "{613, 0}";
+			sepNavVisRange = "{34, 607}";
+			sepNavWindowFrame = "{{19, 0}, {799, 778}}";
+		};
+	};
+	A6E5C58111BC8DD600914CE3 /* LevelScene.mm:259 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = A66FB7BA11B5BA4A00CC85F6 /* LevelScene.mm */;
+		functionName = "-update";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 259;
+		location = "Monster-99.3";
+		modificationTime = 317188303.68769;
+		originalNumberOfMultipleMatches = 1;
+		state = 2;
+	};
+	A6E5C58311BC8DD800914CE3 /* LevelScene.mm:261 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = A66FB7BA11B5BA4A00CC85F6 /* LevelScene.mm */;
+		functionName = "-update";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 261;
+		location = "Monster-99.3";
+		modificationTime = 317188303.688048;
+		originalNumberOfMultipleMatches = 1;
+		state = 2;
+	};
+	A6E5C67311BC9CF100914CE3 /* MMap.mm:88 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = A66FB7C411B5BA4A00CC85F6 /* MMap.mm */;
+		functionName = "-isWalkable:";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 88;
+		location = "Monster-99.3";
+		modificationTime = 317188303.688411;
+		originalNumberOfMultipleMatches = 1;
+		state = 2;
+	};
+	A6E5C68A11BC9ECD00914CE3 /* MMap.mm:93 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = A66FB7C411B5BA4A00CC85F6 /* MMap.mm */;
+		functionName = "-isWalkable:";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 93;
+		location = "Monster-99.3";
+		modificationTime = 317188303.688931;
+		originalNumberOfMultipleMatches = 1;
+		state = 2;
+	};
+	A6F05D7811DADD8E0058E5AA /* LevelScene.mm:216 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = A66FB7BA11B5BA4A00CC85F6 /* LevelScene.mm */;
+		functionName = "-loadTheme:";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 216;
+		location = "Monster-99.3";
+		modificationTime = 317188303.737324;
+		originalNumberOfMultipleMatches = 1;
+		state = 2;
+	};
+	A6F05DBB11DAE4C60058E5AA /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = A6B4BB3A11D999FE00C61E6A /* HumanTheme.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+		);
+		name = /Programming/Monster/Resources/HumanTheme.plist;
+		rLen = 0;
+		rLoc = 9223372036854775808;
+	};
+}
