@@ -1,0 +1,44 @@
+; Engine configuration file.
+; It's best edited using the editor UI and not directly,
+; but it can also be edited manually.
+
+[application]
+
+config/name="Monster"
+config/description="A turn-based tactical strategy game - ported from iOS"
+run/main_scene="res://scenes/main.tscn"
+config/features=PackedStringArray("4.5", "GL Compatibility")
+config/icon="res://icon.svg"
+
+[autoload]
+
+GameSettings="*res://scripts/core/game_settings.gd"
+Enums="*res://scripts/core/enums.gd"
+MessageBus="*res://scripts/systems/message_bus.gd"
+EntityManager="*res://scripts/systems/entity_manager.gd"
+
+[display]
+
+window/size/viewport_width=1280
+window/size/viewport_height=720
+window/stretch/mode="viewport"
+window/handheld/orientation=1
+
+[input]
+
+select={
+"deadzone": 0.5,
+"events": [Object(InputEventMouseButton,"resource_local_to_scene":false,"resource_name":"","device":-1,"window_id":0,"alt_pressed":false,"shift_pressed":false,"ctrl_pressed":false,"meta_pressed":false,"button_mask":1,"position":Vector2(0, 0),"global_position":Vector2(0, 0),"factor":1.0,"button_index":1,"canceled":false,"pressed":true,"double_click":false)]
+}
+
+[layer_names]
+
+2d_physics/layer_1="units"
+2d_physics/layer_2="structures"
+2d_physics/layer_3="projectiles"
+2d_physics/layer_4="terrain"
+
+[rendering]
+
+renderer/rendering_method="gl_compatibility"
+renderer/rendering_method.mobile="gl_compatibility"
